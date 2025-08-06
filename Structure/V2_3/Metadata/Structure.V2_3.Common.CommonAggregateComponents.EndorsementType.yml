@@ -1,0 +1,75 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\EndorsementType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        documentID:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDocumentID
+                setter: setDocumentID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\DocumentID
+        approvalStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: ApprovalStatus
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getApprovalStatus
+                setter: setApprovalStatus
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ApprovalStatus
+        remarks:
+            expose: true
+            access_type: public_method
+            serialized_name: Remarks
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRemarks
+                setter: setRemarks
+            xml_list:
+                inline: true
+                entry_name: Remarks
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Remarks>
+        endorserParty:
+            expose: true
+            access_type: public_method
+            serialized_name: EndorserParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getEndorserParty
+                setter: setEndorserParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\EndorserParty
+        signature:
+            expose: true
+            access_type: public_method
+            serialized_name: Signature
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSignature
+                setter: setSignature
+            xml_list:
+                inline: true
+                entry_name: Signature
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Signature>

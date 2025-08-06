@@ -1,0 +1,161 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\MaritimeTransportType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        vesselID:
+            expose: true
+            access_type: public_method
+            serialized_name: VesselID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getVesselID
+                setter: setVesselID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\VesselID
+        vesselName:
+            expose: true
+            access_type: public_method
+            serialized_name: VesselName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getVesselName
+                setter: setVesselName
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\VesselName
+        radioCallSignID:
+            expose: true
+            access_type: public_method
+            serialized_name: RadioCallSignID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRadioCallSignID
+                setter: setRadioCallSignID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\RadioCallSignID
+        mMSIRegistrationID:
+            expose: true
+            access_type: public_method
+            serialized_name: MMSIRegistrationID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMMSIRegistrationID
+                setter: setMMSIRegistrationID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MMSIRegistrationID
+        shipsRequirements:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipsRequirements
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getShipsRequirements
+                setter: setShipsRequirements
+            xml_list:
+                inline: true
+                entry_name: ShipsRequirements
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ShipsRequirements>
+        grossTonnageMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: GrossTonnageMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGrossTonnageMeasure
+                setter: setGrossTonnageMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\GrossTonnageMeasure
+        netTonnageMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: NetTonnageMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNetTonnageMeasure
+                setter: setNetTonnageMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\NetTonnageMeasure
+        segregatedBallastMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: SegregatedBallastMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSegregatedBallastMeasure
+                setter: setSegregatedBallastMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\SegregatedBallastMeasure
+        shipConfigurationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipConfigurationCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getShipConfigurationCode
+                setter: setShipConfigurationCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ShipConfigurationCode
+        iNFShipClassCode:
+            expose: true
+            access_type: public_method
+            serialized_name: INFShipClassCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getINFShipClassCode
+                setter: setINFShipClassCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\INFShipClassCode
+        antennaLocus:
+            expose: true
+            access_type: public_method
+            serialized_name: AntennaLocus
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAntennaLocus
+                setter: setAntennaLocus
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\AntennaLocus
+        registryCertificateDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistryCertificateDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRegistryCertificateDocumentReference
+                setter: setRegistryCertificateDocumentReference
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\RegistryCertificateDocumentReference
+        registryPortLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistryPortLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRegistryPortLocation
+                setter: setRegistryPortLocation
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\RegistryPortLocation
+        vesselDynamics:
+            expose: true
+            access_type: public_method
+            serialized_name: VesselDynamics
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getVesselDynamics
+                setter: setVesselDynamics
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\VesselDynamics

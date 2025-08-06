@@ -1,0 +1,75 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ContractingPartyType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        buyerProfileURI:
+            expose: true
+            access_type: public_method
+            serialized_name: BuyerProfileURI
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBuyerProfileURI
+                setter: setBuyerProfileURI
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\BuyerProfileURI
+        contractingPartyType:
+            expose: true
+            access_type: public_method
+            serialized_name: ContractingPartyType
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContractingPartyType
+                setter: setContractingPartyType
+            xml_list:
+                inline: true
+                entry_name: ContractingPartyType
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ContractingPartyType>
+        contractingActivity:
+            expose: true
+            access_type: public_method
+            serialized_name: ContractingActivity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContractingActivity
+                setter: setContractingActivity
+            xml_list:
+                inline: true
+                entry_name: ContractingActivity
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ContractingActivity>
+        contractingRepresentationType:
+            expose: true
+            access_type: public_method
+            serialized_name: ContractingRepresentationType
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContractingRepresentationType
+                setter: setContractingRepresentationType
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ContractingRepresentationType
+        party:
+            expose: true
+            access_type: public_method
+            serialized_name: Party
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getParty
+                setter: setParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Party

@@ -1,0 +1,209 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ServiceLevelAgreementType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        serviceTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getServiceTypeCode
+                setter: setServiceTypeCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ServiceTypeCode
+        serviceType:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceType
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getServiceType
+                setter: setServiceType
+            xml_list:
+                inline: true
+                entry_name: ServiceType
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ServiceType>
+        availabilityTimePercent:
+            expose: true
+            access_type: public_method
+            serialized_name: AvailabilityTimePercent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAvailabilityTimePercent
+                setter: setAvailabilityTimePercent
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\AvailabilityTimePercent
+        mondayAvailabilityIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: MondayAvailabilityIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMondayAvailabilityIndicator
+                setter: setMondayAvailabilityIndicator
+            type: bool
+        tuesdayAvailabilityIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: TuesdayAvailabilityIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTuesdayAvailabilityIndicator
+                setter: setTuesdayAvailabilityIndicator
+            type: bool
+        wednesdayAvailabilityIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: WednesdayAvailabilityIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getWednesdayAvailabilityIndicator
+                setter: setWednesdayAvailabilityIndicator
+            type: bool
+        thursdayAvailabilityIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ThursdayAvailabilityIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getThursdayAvailabilityIndicator
+                setter: setThursdayAvailabilityIndicator
+            type: bool
+        fridayAvailabilityIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: FridayAvailabilityIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFridayAvailabilityIndicator
+                setter: setFridayAvailabilityIndicator
+            type: bool
+        saturdayAvailabilityIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SaturdayAvailabilityIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSaturdayAvailabilityIndicator
+                setter: setSaturdayAvailabilityIndicator
+            type: bool
+        sundayAvailabilityIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SundayAvailabilityIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSundayAvailabilityIndicator
+                setter: setSundayAvailabilityIndicator
+            type: bool
+        minimumResponseTimeDurationMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumResponseTimeDurationMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMinimumResponseTimeDurationMeasure
+                setter: setMinimumResponseTimeDurationMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MinimumResponseTimeDurationMeasure
+        minimumDownTimeScheduleDurationMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumDownTimeScheduleDurationMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMinimumDownTimeScheduleDurationMeasure
+                setter: setMinimumDownTimeScheduleDurationMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MinimumDownTimeScheduleDurationMeasure
+        maximumIncidentNotificationDurationMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumIncidentNotificationDurationMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumIncidentNotificationDurationMeasure
+                setter: setMaximumIncidentNotificationDurationMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MaximumIncidentNotificationDurationMeasure
+        maximumDataLossDurationMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumDataLossDurationMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumDataLossDurationMeasure
+                setter: setMaximumDataLossDurationMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MaximumDataLossDurationMeasure
+        meanTimeToRecoverDurationMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: MeanTimeToRecoverDurationMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMeanTimeToRecoverDurationMeasure
+                setter: setMeanTimeToRecoverDurationMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MeanTimeToRecoverDurationMeasure
+        serviceAvailabilityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceAvailabilityPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getServiceAvailabilityPeriod
+                setter: setServiceAvailabilityPeriod
+            xml_list:
+                inline: true
+                entry_name: ServiceAvailabilityPeriod
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ServiceAvailabilityPeriod>
+        serviceMaintenancePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceMaintenancePeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getServiceMaintenancePeriod
+                setter: setServiceMaintenancePeriod
+            xml_list:
+                inline: true
+                entry_name: ServiceMaintenancePeriod
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ServiceMaintenancePeriod>

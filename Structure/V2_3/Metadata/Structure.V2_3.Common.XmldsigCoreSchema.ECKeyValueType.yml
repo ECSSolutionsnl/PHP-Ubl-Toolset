@@ -1,0 +1,41 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\XmldsigCoreSchema\ECKeyValueType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: Id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        eCParameters:
+            expose: true
+            access_type: public_method
+            serialized_name: ECParameters
+            xml_element:
+                namespace: 'http://www.w3.org/2009/xmldsig11#'
+            accessor:
+                getter: getECParameters
+                setter: setECParameters
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\XmldsigCoreSchema\ECParametersType
+        namedCurve:
+            expose: true
+            access_type: public_method
+            serialized_name: NamedCurve
+            xml_element:
+                namespace: 'http://www.w3.org/2009/xmldsig11#'
+            accessor:
+                getter: getNamedCurve
+                setter: setNamedCurve
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\XmldsigCoreSchema\NamedCurveType
+        publicKey:
+            expose: true
+            access_type: public_method
+            serialized_name: PublicKey
+            xml_element:
+                namespace: 'http://www.w3.org/2009/xmldsig11#'
+            accessor:
+                getter: getPublicKey
+                setter: setPublicKey
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded

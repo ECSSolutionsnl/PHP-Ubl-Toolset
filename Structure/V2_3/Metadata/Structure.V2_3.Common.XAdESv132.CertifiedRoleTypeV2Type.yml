@@ -1,0 +1,22 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\XAdESv132\CertifiedRoleTypeV2Type:
+    properties:
+        x509AttributeCertificate:
+            expose: true
+            access_type: public_method
+            serialized_name: X509AttributeCertificate
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getX509AttributeCertificate
+                setter: setX509AttributeCertificate
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\XAdESv132\X509AttributeCertificate
+        otherAttributeCertificate:
+            expose: true
+            access_type: public_method
+            serialized_name: OtherAttributeCertificate
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getOtherAttributeCertificate
+                setter: setOtherAttributeCertificate
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\XAdESv132\OtherAttributeCertificate

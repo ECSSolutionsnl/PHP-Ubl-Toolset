@@ -1,0 +1,101 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ItemInstanceType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        productTraceID:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductTraceID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getProductTraceID
+                setter: setProductTraceID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ProductTraceID
+        manufactureDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ManufactureDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getManufactureDate
+                setter: setManufactureDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        manufactureTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ManufactureTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getManufactureTime
+                setter: setManufactureTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        bestBeforeDate:
+            expose: true
+            access_type: public_method
+            serialized_name: BestBeforeDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBestBeforeDate
+                setter: setBestBeforeDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        registrationID:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistrationID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRegistrationID
+                setter: setRegistrationID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\RegistrationID
+        serialID:
+            expose: true
+            access_type: public_method
+            serialized_name: SerialID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSerialID
+                setter: setSerialID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\SerialID
+        additionalItemProperty:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalItemProperty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAdditionalItemProperty
+                setter: setAdditionalItemProperty
+            xml_list:
+                inline: true
+                entry_name: AdditionalItemProperty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AdditionalItemProperty>
+        lotIdentification:
+            expose: true
+            access_type: public_method
+            serialized_name: LotIdentification
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLotIdentification
+                setter: setLotIdentification
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\LotIdentification

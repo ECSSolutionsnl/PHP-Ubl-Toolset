@@ -1,0 +1,189 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TenderingCriterionType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        criterionTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CriterionTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCriterionTypeCode
+                setter: setCriterionTypeCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CriterionTypeCode
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            xml_list:
+                inline: true
+                entry_name: Name
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Name>
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Description>
+        weightNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: WeightNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getWeightNumeric
+                setter: setWeightNumeric
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\WeightNumeric
+        fulfilmentIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: FulfilmentIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFulfilmentIndicator
+                setter: setFulfilmentIndicator
+            type: bool
+        fulfilmentIndicatorTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: FulfilmentIndicatorTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFulfilmentIndicatorTypeCode
+                setter: setFulfilmentIndicatorTypeCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\FulfilmentIndicatorTypeCode
+        evaluationMethodTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: EvaluationMethodTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEvaluationMethodTypeCode
+                setter: setEvaluationMethodTypeCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\EvaluationMethodTypeCode
+        weightingConsiderationDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: WeightingConsiderationDescription
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getWeightingConsiderationDescription
+                setter: setWeightingConsiderationDescription
+            xml_list:
+                inline: true
+                entry_name: WeightingConsiderationDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\WeightingConsiderationDescription>
+        procurementProjectLotReference:
+            expose: true
+            access_type: public_method
+            serialized_name: ProcurementProjectLotReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getProcurementProjectLotReference
+                setter: setProcurementProjectLotReference
+            xml_list:
+                inline: true
+                entry_name: ProcurementProjectLotReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ProcurementProjectLotReference>
+        commodityClassification:
+            expose: true
+            access_type: public_method
+            serialized_name: CommodityClassification
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCommodityClassification
+                setter: setCommodityClassification
+            xml_list:
+                inline: true
+                entry_name: CommodityClassification
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\CommodityClassification>
+        subTenderingCriterion:
+            expose: true
+            access_type: public_method
+            serialized_name: SubTenderingCriterion
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSubTenderingCriterion
+                setter: setSubTenderingCriterion
+            xml_list:
+                inline: true
+                entry_name: SubTenderingCriterion
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\SubTenderingCriterion>
+        legislation:
+            expose: true
+            access_type: public_method
+            serialized_name: Legislation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLegislation
+                setter: setLegislation
+            xml_list:
+                inline: true
+                entry_name: Legislation
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Legislation>
+        tenderingCriterionPropertyGroup:
+            expose: true
+            access_type: public_method
+            serialized_name: TenderingCriterionPropertyGroup
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTenderingCriterionPropertyGroup
+                setter: setTenderingCriterionPropertyGroup
+            xml_list:
+                inline: true
+                entry_name: TenderingCriterionPropertyGroup
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TenderingCriterionPropertyGroup>

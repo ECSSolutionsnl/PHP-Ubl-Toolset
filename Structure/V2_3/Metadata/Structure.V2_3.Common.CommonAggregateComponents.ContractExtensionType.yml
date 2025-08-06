@@ -1,0 +1,85 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ContractExtensionType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        optionsDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: OptionsDescription
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOptionsDescription
+                setter: setOptionsDescription
+            xml_list:
+                inline: true
+                entry_name: OptionsDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\OptionsDescription>
+        minimumNumberNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumNumberNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMinimumNumberNumeric
+                setter: setMinimumNumberNumeric
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MinimumNumberNumeric
+        maximumNumberNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumNumberNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumNumberNumeric
+                setter: setMaximumNumberNumeric
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MaximumNumberNumeric
+        renewalsIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: RenewalsIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRenewalsIndicator
+                setter: setRenewalsIndicator
+            type: bool
+        optionValidityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: OptionValidityPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOptionValidityPeriod
+                setter: setOptionValidityPeriod
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\OptionValidityPeriod
+        renewal:
+            expose: true
+            access_type: public_method
+            serialized_name: Renewal
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRenewal
+                setter: setRenewal
+            xml_list:
+                inline: true
+                entry_name: Renewal
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Renewal>

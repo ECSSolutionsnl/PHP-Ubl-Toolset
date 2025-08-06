@@ -1,0 +1,3 @@
+ECSSolutions\UblToolset\Structure\V2_3\Maindoc\InventoryReport\InventoryReport:
+    xml_root_name: InventoryReport
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:InventoryReport-2'

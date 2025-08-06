@@ -1,0 +1,52 @@
+ECSSolutions\UblToolset\Structure\V2_1\Common\CommonAggregateComponents\OrderLineReferenceType:
+    properties:
+        lineID:
+            expose: true
+            access_type: public_method
+            serialized_name: LineID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLineID
+                setter: setLineID
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonBasicComponents\LineID
+        salesOrderLineID:
+            expose: true
+            access_type: public_method
+            serialized_name: SalesOrderLineID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSalesOrderLineID
+                setter: setSalesOrderLineID
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonBasicComponents\SalesOrderLineID
+        uUID:
+            expose: true
+            access_type: public_method
+            serialized_name: UUID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUUID
+                setter: setUUID
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonBasicComponents\UUID
+        lineStatusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LineStatusCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLineStatusCode
+                setter: setLineStatusCode
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonBasicComponents\LineStatusCode
+        orderReference:
+            expose: true
+            access_type: public_method
+            serialized_name: OrderReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOrderReference
+                setter: setOrderReference
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonAggregateComponents\OrderReference

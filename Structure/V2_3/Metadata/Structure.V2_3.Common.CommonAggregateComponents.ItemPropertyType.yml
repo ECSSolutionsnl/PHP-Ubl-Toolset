@@ -1,0 +1,183 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ItemPropertyType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Name
+        nameCode:
+            expose: true
+            access_type: public_method
+            serialized_name: NameCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNameCode
+                setter: setNameCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\NameCode
+        testMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: TestMethod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTestMethod
+                setter: setTestMethod
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TestMethod
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: Value
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Value
+        valueQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: ValueQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValueQuantity
+                setter: setValueQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ValueQuantity
+        valueQualifier:
+            expose: true
+            access_type: public_method
+            serialized_name: ValueQualifier
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValueQualifier
+                setter: setValueQualifier
+            xml_list:
+                inline: true
+                entry_name: ValueQualifier
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ValueQualifier>
+        importanceCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ImportanceCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getImportanceCode
+                setter: setImportanceCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ImportanceCode
+        listValue:
+            expose: true
+            access_type: public_method
+            serialized_name: ListValue
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getListValue
+                setter: setListValue
+            xml_list:
+                inline: true
+                entry_name: ListValue
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ListValue>
+        usabilityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: UsabilityPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getUsabilityPeriod
+                setter: setUsabilityPeriod
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\UsabilityPeriod
+        itemPropertyGroup:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemPropertyGroup
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getItemPropertyGroup
+                setter: setItemPropertyGroup
+            xml_list:
+                inline: true
+                entry_name: ItemPropertyGroup
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ItemPropertyGroup>
+        rangeDimension:
+            expose: true
+            access_type: public_method
+            serialized_name: RangeDimension
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRangeDimension
+                setter: setRangeDimension
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\RangeDimension
+        itemPropertyRange:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemPropertyRange
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getItemPropertyRange
+                setter: setItemPropertyRange
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ItemPropertyRange
+        standardPropertyIdentification:
+            expose: true
+            access_type: public_method
+            serialized_name: StandardPropertyIdentification
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getStandardPropertyIdentification
+                setter: setStandardPropertyIdentification
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\StandardPropertyIdentification
+        subItemProperty:
+            expose: true
+            access_type: public_method
+            serialized_name: SubItemProperty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSubItemProperty
+                setter: setSubItemProperty
+            xml_list:
+                inline: true
+                entry_name: SubItemProperty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\SubItemProperty>

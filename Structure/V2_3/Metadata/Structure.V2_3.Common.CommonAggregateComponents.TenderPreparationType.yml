@@ -1,0 +1,103 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TenderPreparationType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        tenderEnvelopeID:
+            expose: true
+            access_type: public_method
+            serialized_name: TenderEnvelopeID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTenderEnvelopeID
+                setter: setTenderEnvelopeID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TenderEnvelopeID
+        tenderEnvelopeTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TenderEnvelopeTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTenderEnvelopeTypeCode
+                setter: setTenderEnvelopeTypeCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TenderEnvelopeTypeCode
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Description>
+        openTenderID:
+            expose: true
+            access_type: public_method
+            serialized_name: OpenTenderID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOpenTenderID
+                setter: setOpenTenderID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\OpenTenderID
+        procurementProjectLot:
+            expose: true
+            access_type: public_method
+            serialized_name: ProcurementProjectLot
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getProcurementProjectLot
+                setter: setProcurementProjectLot
+            xml_list:
+                inline: true
+                entry_name: ProcurementProjectLot
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ProcurementProjectLot>
+        documentTenderRequirement:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentTenderRequirement
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentTenderRequirement
+                setter: setDocumentTenderRequirement
+            xml_list:
+                inline: true
+                entry_name: DocumentTenderRequirement
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\DocumentTenderRequirement>
+        tenderEncryptionData:
+            expose: true
+            access_type: public_method
+            serialized_name: TenderEncryptionData
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTenderEncryptionData
+                setter: setTenderEncryptionData
+            xml_list:
+                inline: true
+                entry_name: TenderEncryptionData
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TenderEncryptionData>

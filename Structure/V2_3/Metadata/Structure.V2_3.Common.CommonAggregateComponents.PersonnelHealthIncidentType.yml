@@ -1,0 +1,159 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\PersonnelHealthIncidentType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        joinedShipDate:
+            expose: true
+            access_type: public_method
+            serialized_name: JoinedShipDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getJoinedShipDate
+                setter: setJoinedShipDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        natureOfIllnessDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: NatureOfIllnessDescription
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNatureOfIllnessDescription
+                setter: setNatureOfIllnessDescription
+            xml_list:
+                inline: true
+                entry_name: NatureOfIllnessDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\NatureOfIllnessDescription>
+        onsetDate:
+            expose: true
+            access_type: public_method
+            serialized_name: OnsetDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOnsetDate
+                setter: setOnsetDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        reportedToMedicalOfficerIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ReportedToMedicalOfficerIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReportedToMedicalOfficerIndicator
+                setter: setReportedToMedicalOfficerIndicator
+            type: bool
+        givenTreatmentDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: GivenTreatmentDescription
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGivenTreatmentDescription
+                setter: setGivenTreatmentDescription
+            xml_list:
+                inline: true
+                entry_name: GivenTreatmentDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\GivenTreatmentDescription>
+        stillIllIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: StillIllIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getStillIllIndicator
+                setter: setStillIllIndicator
+            type: bool
+        diedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: DiedIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDiedIndicator
+                setter: setDiedIndicator
+            type: bool
+        stillOnBoardIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: StillOnBoardIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getStillOnBoardIndicator
+                setter: setStillOnBoardIndicator
+            type: bool
+        evacuatedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: EvacuatedIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEvacuatedIndicator
+                setter: setEvacuatedIndicator
+            type: bool
+        buriedAtSeaIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: BuriedAtSeaIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBuriedAtSeaIndicator
+                setter: setBuriedAtSeaIndicator
+            type: bool
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Note>
+        person:
+            expose: true
+            access_type: public_method
+            serialized_name: Person
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPerson
+                setter: setPerson
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Person

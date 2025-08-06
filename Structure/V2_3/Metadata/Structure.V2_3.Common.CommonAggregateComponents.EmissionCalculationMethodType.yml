@@ -1,0 +1,57 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\EmissionCalculationMethodType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        calculationMethodCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CalculationMethodCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCalculationMethodCode
+                setter: setCalculationMethodCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CalculationMethodCode
+        fullnessIndicationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: FullnessIndicationCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFullnessIndicationCode
+                setter: setFullnessIndicationCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\FullnessIndicationCode
+        measurementFromLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: MeasurementFromLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMeasurementFromLocation
+                setter: setMeasurementFromLocation
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\MeasurementFromLocation
+        measurementToLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: MeasurementToLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMeasurementToLocation
+                setter: setMeasurementToLocation
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\MeasurementToLocation

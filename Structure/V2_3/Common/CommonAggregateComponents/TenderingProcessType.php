@@ -1,0 +1,2180 @@
+<?php
+
+namespace ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents;
+
+/**
+ * Class representing TenderingProcessType
+ *
+ * ABIE
+ *  Tendering Process. Details
+ *  A class to describe the process of a formal offer and response to execute work or supply goods at a stated price.
+ *  Tendering Process
+ * XSD Type: TenderingProcessType
+ */
+class TenderingProcessType
+{
+    /**
+     * A container for extensions foreign to the document.
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension[] $uBLExtensions
+     */
+    private $uBLExtensions = null;
+
+    /**
+     * BBIE
+     *  Tendering Process. Identifier
+     *  An identifier for this tendering process.
+     *  0..1
+     *  Tendering Process
+     *  Identifier
+     *  Identifier
+     *  Identifier. Type
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID $iD
+     */
+    private $iD = null;
+
+    /**
+     * BBIE
+     *  Tendering Process. Original_ Contracting System. Identifier
+     *  When reopening a tendering process, the identifier of the original framework agreement or dynamic purchasing system.
+     *  0..1
+     *  Tendering Process
+     *  Original
+     *  Contracting System
+     *  Identifier
+     *  Identifier. Type
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\OriginalContractingSystemID $originalContractingSystemID
+     */
+    private $originalContractingSystemID = null;
+
+    /**
+     * BBIE
+     *  Tendering Process. Description. Text
+     *  Text describing the tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Description
+     *  Text
+     *  Text. Type
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Description[] $description
+     */
+    private $description = [
+        
+    ];
+
+    /**
+     * BBIE
+     *  Tendering Process. Negotiation_ Description. Text
+     *  Text describing the negotiation to be followed during the tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Negotiation
+     *  Description
+     *  Text
+     *  Text. Type
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\NegotiationDescription[] $negotiationDescription
+     */
+    private $negotiationDescription = [
+        
+    ];
+
+    /**
+     * BBIE
+     *  Tendering Process. Procedure Code. Code
+     *  A code signifying the type of this tendering procedure.
+     *  0..1
+     *  Tendering Process
+     *  Procedure Code
+     *  Code
+     *  Code. Type
+     *  Open, Restricted, Negotiated
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ProcedureCode $procedureCode
+     */
+    private $procedureCode = null;
+
+    /**
+     * BBIE
+     *  Tendering Process. Urgency Code. Code
+     *  A code signifying the urgency of this tendering process.
+     *  0..1
+     *  Tendering Process
+     *  Urgency Code
+     *  Code
+     *  Code. Type
+     *  Urgent, Normal, Emergency
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\UrgencyCode $urgencyCode
+     */
+    private $urgencyCode = null;
+
+    /**
+     * BBIE
+     *  Tendering Process. Expense Code. Code
+     *  A code signifying the type of expense for this tendering process.
+     *  0..1
+     *  Tendering Process
+     *  Expense Code
+     *  Code
+     *  Code. Type
+     *  Normal, Anticipated
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ExpenseCode $expenseCode
+     */
+    private $expenseCode = null;
+
+    /**
+     * BBIE
+     *  Tendering Process. Part Presentation Code. Code
+     *  A code signifying the type of presentation of tenders required (e.g., one lot, multiple lots, or all the lots).
+     *  0..1
+     *  Tendering Process
+     *  Part Presentation Code
+     *  Code
+     *  Code. Type
+     *  One Lot, Multiple Lots, All Lots
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PartPresentationCode $partPresentationCode
+     */
+    private $partPresentationCode = null;
+
+    /**
+     * BBIE
+     *  Tendering Process. Contracting System Code. Code
+     *  A code signifying the type of contracting system (e.g., framework agreement, dynamic purchasing system). If the procedure is individual (nonrepetitive), this code should be omitted.
+     *  0..1
+     *  Tendering Process
+     *  Contracting System Code
+     *  Code
+     *  Code. Type
+     *  Framework Agreement, Dynamic Purchasing System
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ContractingSystemCode $contractingSystemCode
+     */
+    private $contractingSystemCode = null;
+
+    /**
+     * BBIE
+     *  Tendering Process. Submission Method Code. Code
+     *  A code signifying the method to be followed in submitting tenders.
+     *  0..1
+     *  Tendering Process
+     *  Submission Method Code
+     *  Code
+     *  Code. Type
+     *  Manual, Electronically, etc.
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\SubmissionMethodCode $submissionMethodCode
+     */
+    private $submissionMethodCode = null;
+
+    /**
+     * BBIE
+     *  Tendering Process. Candidate Reduction_ Constraint. Indicator
+     *  An indicator that the number of candidates participating in this process has been reduced (true) or not (false).
+     *  0..1
+     *  Tendering Process
+     *  Candidate Reduction
+     *  Constraint
+     *  Indicator
+     *  Indicator. Type
+     *
+     * @var bool $candidateReductionConstraintIndicator
+     */
+    private $candidateReductionConstraintIndicator = null;
+
+    /**
+     * BBIE
+     *  Tendering Process. Government Agreement_ Constraint. Indicator
+     *  An indicator that the project associated with this tendering process is constrained by a government procurement agreement (true) or not (false).
+     *  0..1
+     *  Tendering Process
+     *  Government Agreement
+     *  Constraint
+     *  Indicator
+     *  Indicator. Type
+     *
+     * @var bool $governmentAgreementConstraintIndicator
+     */
+    private $governmentAgreementConstraintIndicator = null;
+
+    /**
+     * BBIE
+     *  Tendering Process. Access Tools_ URI. Identifier
+     *  The URI where the tools for electronic communication related with the tendering process can be found.
+     *  0..1
+     *  Tendering Process
+     *  Access Tools
+     *  URI
+     *  Identifier
+     *  Identifier. Type
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\AccessToolsURI $accessToolsURI
+     */
+    private $accessToolsURI = null;
+
+    /**
+     * BBIE
+     *  Tendering Process. Terminated. Indicator
+     *  An indicator that the competition launched is terminated.
+     *  0..1
+     *  Tendering Process
+     *  Terminated
+     *  Indicator
+     *  Indicator. Type
+     *  PIN call for competition is terminated.
+     *
+     * @var bool $terminatedIndicator
+     */
+    private $terminatedIndicator = null;
+
+    /**
+     * ASBIE
+     *  Tendering Process. Document Availability_ Period. Period
+     *  The period during which documents relating to this tendering process must be completed.
+     *  0..1
+     *  Tendering Process
+     *  Document Availability
+     *  Period
+     *  Period
+     *  Period
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\DocumentAvailabilityPeriod $documentAvailabilityPeriod
+     */
+    private $documentAvailabilityPeriod = null;
+
+    /**
+     * ASBIE
+     *  Tendering Process. Tender Submission Deadline_ Period. Period
+     *  The period during which tenders must be delivered.
+     *  0..1
+     *  Tendering Process
+     *  Tender Submission Deadline
+     *  Period
+     *  Period
+     *  Period
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TenderSubmissionDeadlinePeriod $tenderSubmissionDeadlinePeriod
+     */
+    private $tenderSubmissionDeadlinePeriod = null;
+
+    /**
+     * ASBIE
+     *  Tendering Process. Invitation Submission_ Period. Period
+     *  The period during which invitations to tender must be completed and delivered.
+     *  0..1
+     *  Tendering Process
+     *  Invitation Submission
+     *  Period
+     *  Period
+     *  Period
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\InvitationSubmissionPeriod $invitationSubmissionPeriod
+     */
+    private $invitationSubmissionPeriod = null;
+
+    /**
+     * ASBIE
+     *  Tendering Process. Participation Invitation_ Period. Period
+     *  The period during which the invitation to participate must be sent.
+     *  0..1
+     *  Tendering Process
+     *  Participation Invitation
+     *  Period
+     *  Period
+     *  Period
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ParticipationInvitationPeriod $participationInvitationPeriod
+     */
+    private $participationInvitationPeriod = null;
+
+    /**
+     * ASBIE
+     *  Tendering Process. Participation Request Reception_ Period. Period
+     *  The period during which requests for participation must be completed and delivered.
+     *  0..1
+     *  Tendering Process
+     *  Participation Request Reception
+     *  Period
+     *  Period
+     *  Period
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ParticipationRequestReceptionPeriod $participationRequestReceptionPeriod
+     */
+    private $participationRequestReceptionPeriod = null;
+
+    /**
+     * ASBIE
+     *  Tendering Process. Additional Information Request_ Period. Period
+     *  The period during which additional information about the procurement can be requested.
+     *  0..1
+     *  Tendering Process
+     *  Additional Information Request
+     *  Period
+     *  Period
+     *  Period
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AdditionalInformationRequestPeriod $additionalInformationRequestPeriod
+     */
+    private $additionalInformationRequestPeriod = null;
+
+    /**
+     * ASBIE
+     *  Tendering Process. Notice_ Document Reference. Document Reference
+     *  A reference to a notice pertaining to this tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Notice
+     *  Document Reference
+     *  Document Reference
+     *  Document Reference
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\NoticeDocumentReference[] $noticeDocumentReference
+     */
+    private $noticeDocumentReference = [
+        
+    ];
+
+    /**
+     * ASBIE
+     *  Tendering Process. Additional_ Document Reference. Document Reference
+     *  A reference to an additional document.
+     *  0..n
+     *  Tendering Process
+     *  Additional
+     *  Document Reference
+     *  Document Reference
+     *  Document Reference
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AdditionalDocumentReference[] $additionalDocumentReference
+     */
+    private $additionalDocumentReference = [
+        
+    ];
+
+    /**
+     * ASBIE
+     *  Tendering Process. Process Justification
+     *  A justification for the selection of this tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Process Justification
+     *  Process Justification
+     *  Process Justification
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ProcessJustification[] $processJustification
+     */
+    private $processJustification = [
+        
+    ];
+
+    /**
+     * ASBIE
+     *  Tendering Process. Economic Operator Short List
+     *  A set of criteria used to create a short list of candidates.
+     *  0..n
+     *  Tendering Process
+     *  Economic Operator Short List
+     *  Economic Operator Short List
+     *  Economic Operator Short List
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\EconomicOperatorShortList[] $economicOperatorShortList
+     */
+    private $economicOperatorShortList = [
+        
+    ];
+
+    /**
+     * ASBIE
+     *  Tendering Process. Open Tender_ Event. Event
+     *  Textual description of the legal form required for potential tenderers.
+     *  0..n
+     *  Tendering Process
+     *  Open Tender
+     *  Event
+     *  Event
+     *  Event
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\OpenTenderEvent[] $openTenderEvent
+     */
+    private $openTenderEvent = [
+        
+    ];
+
+    /**
+     * ASBIE
+     *  Tendering Process. Auction Terms
+     *  The terms to be fulfilled by tenderers if an auction is to be executed before the awarding of a tender.
+     *  0..1
+     *  Tendering Process
+     *  Auction Terms
+     *  Auction Terms
+     *  Auction Terms
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AuctionTerms $auctionTerms
+     */
+    private $auctionTerms = null;
+
+    /**
+     * ASBIE
+     *  Tendering Process. Framework Agreement
+     *  A tendering framework agreement.
+     *  0..1
+     *  Tendering Process
+     *  Framework Agreement
+     *  Framework Agreement
+     *  Framework Agreement
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\FrameworkAgreement $frameworkAgreement
+     */
+    private $frameworkAgreement = null;
+
+    /**
+     * ASBIE
+     *  Tendering Process. Contracting System
+     *  A reference to a contracting system. Only when the procedure is repetitive.
+     *  0..n
+     *  Tendering Process
+     *  Contracting System
+     *  Contracting System
+     *  Contracting System
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ContractingSystem[] $contractingSystem
+     */
+    private $contractingSystem = [
+        
+    ];
+
+    /**
+     * Adds as uBLExtension
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @return self
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension $uBLExtension
+     */
+    public function addToUBLExtensions(\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension $uBLExtension)
+    {
+        $this->uBLExtensions[] = $uBLExtension;
+        return $this;
+    }
+
+    /**
+     * isset uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetUBLExtensions($index)
+    {
+        return isset($this->uBLExtensions[$index]);
+    }
+
+    /**
+     * unset uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetUBLExtensions($index)
+    {
+        unset($this->uBLExtensions[$index]);
+    }
+
+    /**
+     * Gets as uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension[]
+     */
+    public function getUBLExtensions()
+    {
+        return $this->uBLExtensions;
+    }
+
+    /**
+     * Sets a new uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension[] $uBLExtensions
+     * @return self
+     */
+    public function setUBLExtensions(?array $uBLExtensions = null)
+    {
+        $this->uBLExtensions = $uBLExtensions;
+        return $this;
+    }
+
+    /**
+     * Gets as iD
+     *
+     * BBIE
+     *  Tendering Process. Identifier
+     *  An identifier for this tendering process.
+     *  0..1
+     *  Tendering Process
+     *  Identifier
+     *  Identifier
+     *  Identifier. Type
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+     */
+    public function getID()
+    {
+        return $this->iD;
+    }
+
+    /**
+     * Sets a new iD
+     *
+     * BBIE
+     *  Tendering Process. Identifier
+     *  An identifier for this tendering process.
+     *  0..1
+     *  Tendering Process
+     *  Identifier
+     *  Identifier
+     *  Identifier. Type
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID $iD
+     * @return self
+     */
+    public function setID(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID $iD = null)
+    {
+        $this->iD = $iD;
+        return $this;
+    }
+
+    /**
+     * Gets as originalContractingSystemID
+     *
+     * BBIE
+     *  Tendering Process. Original_ Contracting System. Identifier
+     *  When reopening a tendering process, the identifier of the original framework agreement or dynamic purchasing system.
+     *  0..1
+     *  Tendering Process
+     *  Original
+     *  Contracting System
+     *  Identifier
+     *  Identifier. Type
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\OriginalContractingSystemID
+     */
+    public function getOriginalContractingSystemID()
+    {
+        return $this->originalContractingSystemID;
+    }
+
+    /**
+     * Sets a new originalContractingSystemID
+     *
+     * BBIE
+     *  Tendering Process. Original_ Contracting System. Identifier
+     *  When reopening a tendering process, the identifier of the original framework agreement or dynamic purchasing system.
+     *  0..1
+     *  Tendering Process
+     *  Original
+     *  Contracting System
+     *  Identifier
+     *  Identifier. Type
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\OriginalContractingSystemID $originalContractingSystemID
+     * @return self
+     */
+    public function setOriginalContractingSystemID(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\OriginalContractingSystemID $originalContractingSystemID = null)
+    {
+        $this->originalContractingSystemID = $originalContractingSystemID;
+        return $this;
+    }
+
+    /**
+     * Adds as description
+     *
+     * BBIE
+     *  Tendering Process. Description. Text
+     *  Text describing the tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Description
+     *  Text
+     *  Text. Type
+     *
+     * @return self
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Description $description
+     */
+    public function addToDescription(\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Description $description)
+    {
+        $this->description[] = $description;
+        return $this;
+    }
+
+    /**
+     * isset description
+     *
+     * BBIE
+     *  Tendering Process. Description. Text
+     *  Text describing the tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Description
+     *  Text
+     *  Text. Type
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetDescription($index)
+    {
+        return isset($this->description[$index]);
+    }
+
+    /**
+     * unset description
+     *
+     * BBIE
+     *  Tendering Process. Description. Text
+     *  Text describing the tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Description
+     *  Text
+     *  Text. Type
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetDescription($index)
+    {
+        unset($this->description[$index]);
+    }
+
+    /**
+     * Gets as description
+     *
+     * BBIE
+     *  Tendering Process. Description. Text
+     *  Text describing the tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Description
+     *  Text
+     *  Text. Type
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Description[]
+     */
+    public function getDescription()
+    {
+        return $this->description;
+    }
+
+    /**
+     * Sets a new description
+     *
+     * BBIE
+     *  Tendering Process. Description. Text
+     *  Text describing the tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Description
+     *  Text
+     *  Text. Type
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Description[] $description
+     * @return self
+     */
+    public function setDescription(?array $description = null)
+    {
+        $this->description = $description;
+        return $this;
+    }
+
+    /**
+     * Adds as negotiationDescription
+     *
+     * BBIE
+     *  Tendering Process. Negotiation_ Description. Text
+     *  Text describing the negotiation to be followed during the tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Negotiation
+     *  Description
+     *  Text
+     *  Text. Type
+     *
+     * @return self
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\NegotiationDescription $negotiationDescription
+     */
+    public function addToNegotiationDescription(\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\NegotiationDescription $negotiationDescription)
+    {
+        $this->negotiationDescription[] = $negotiationDescription;
+        return $this;
+    }
+
+    /**
+     * isset negotiationDescription
+     *
+     * BBIE
+     *  Tendering Process. Negotiation_ Description. Text
+     *  Text describing the negotiation to be followed during the tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Negotiation
+     *  Description
+     *  Text
+     *  Text. Type
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetNegotiationDescription($index)
+    {
+        return isset($this->negotiationDescription[$index]);
+    }
+
+    /**
+     * unset negotiationDescription
+     *
+     * BBIE
+     *  Tendering Process. Negotiation_ Description. Text
+     *  Text describing the negotiation to be followed during the tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Negotiation
+     *  Description
+     *  Text
+     *  Text. Type
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetNegotiationDescription($index)
+    {
+        unset($this->negotiationDescription[$index]);
+    }
+
+    /**
+     * Gets as negotiationDescription
+     *
+     * BBIE
+     *  Tendering Process. Negotiation_ Description. Text
+     *  Text describing the negotiation to be followed during the tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Negotiation
+     *  Description
+     *  Text
+     *  Text. Type
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\NegotiationDescription[]
+     */
+    public function getNegotiationDescription()
+    {
+        return $this->negotiationDescription;
+    }
+
+    /**
+     * Sets a new negotiationDescription
+     *
+     * BBIE
+     *  Tendering Process. Negotiation_ Description. Text
+     *  Text describing the negotiation to be followed during the tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Negotiation
+     *  Description
+     *  Text
+     *  Text. Type
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\NegotiationDescription[] $negotiationDescription
+     * @return self
+     */
+    public function setNegotiationDescription(?array $negotiationDescription = null)
+    {
+        $this->negotiationDescription = $negotiationDescription;
+        return $this;
+    }
+
+    /**
+     * Gets as procedureCode
+     *
+     * BBIE
+     *  Tendering Process. Procedure Code. Code
+     *  A code signifying the type of this tendering procedure.
+     *  0..1
+     *  Tendering Process
+     *  Procedure Code
+     *  Code
+     *  Code. Type
+     *  Open, Restricted, Negotiated
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ProcedureCode
+     */
+    public function getProcedureCode()
+    {
+        return $this->procedureCode;
+    }
+
+    /**
+     * Sets a new procedureCode
+     *
+     * BBIE
+     *  Tendering Process. Procedure Code. Code
+     *  A code signifying the type of this tendering procedure.
+     *  0..1
+     *  Tendering Process
+     *  Procedure Code
+     *  Code
+     *  Code. Type
+     *  Open, Restricted, Negotiated
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ProcedureCode $procedureCode
+     * @return self
+     */
+    public function setProcedureCode(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ProcedureCode $procedureCode = null)
+    {
+        $this->procedureCode = $procedureCode;
+        return $this;
+    }
+
+    /**
+     * Gets as urgencyCode
+     *
+     * BBIE
+     *  Tendering Process. Urgency Code. Code
+     *  A code signifying the urgency of this tendering process.
+     *  0..1
+     *  Tendering Process
+     *  Urgency Code
+     *  Code
+     *  Code. Type
+     *  Urgent, Normal, Emergency
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\UrgencyCode
+     */
+    public function getUrgencyCode()
+    {
+        return $this->urgencyCode;
+    }
+
+    /**
+     * Sets a new urgencyCode
+     *
+     * BBIE
+     *  Tendering Process. Urgency Code. Code
+     *  A code signifying the urgency of this tendering process.
+     *  0..1
+     *  Tendering Process
+     *  Urgency Code
+     *  Code
+     *  Code. Type
+     *  Urgent, Normal, Emergency
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\UrgencyCode $urgencyCode
+     * @return self
+     */
+    public function setUrgencyCode(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\UrgencyCode $urgencyCode = null)
+    {
+        $this->urgencyCode = $urgencyCode;
+        return $this;
+    }
+
+    /**
+     * Gets as expenseCode
+     *
+     * BBIE
+     *  Tendering Process. Expense Code. Code
+     *  A code signifying the type of expense for this tendering process.
+     *  0..1
+     *  Tendering Process
+     *  Expense Code
+     *  Code
+     *  Code. Type
+     *  Normal, Anticipated
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ExpenseCode
+     */
+    public function getExpenseCode()
+    {
+        return $this->expenseCode;
+    }
+
+    /**
+     * Sets a new expenseCode
+     *
+     * BBIE
+     *  Tendering Process. Expense Code. Code
+     *  A code signifying the type of expense for this tendering process.
+     *  0..1
+     *  Tendering Process
+     *  Expense Code
+     *  Code
+     *  Code. Type
+     *  Normal, Anticipated
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ExpenseCode $expenseCode
+     * @return self
+     */
+    public function setExpenseCode(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ExpenseCode $expenseCode = null)
+    {
+        $this->expenseCode = $expenseCode;
+        return $this;
+    }
+
+    /**
+     * Gets as partPresentationCode
+     *
+     * BBIE
+     *  Tendering Process. Part Presentation Code. Code
+     *  A code signifying the type of presentation of tenders required (e.g., one lot, multiple lots, or all the lots).
+     *  0..1
+     *  Tendering Process
+     *  Part Presentation Code
+     *  Code
+     *  Code. Type
+     *  One Lot, Multiple Lots, All Lots
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PartPresentationCode
+     */
+    public function getPartPresentationCode()
+    {
+        return $this->partPresentationCode;
+    }
+
+    /**
+     * Sets a new partPresentationCode
+     *
+     * BBIE
+     *  Tendering Process. Part Presentation Code. Code
+     *  A code signifying the type of presentation of tenders required (e.g., one lot, multiple lots, or all the lots).
+     *  0..1
+     *  Tendering Process
+     *  Part Presentation Code
+     *  Code
+     *  Code. Type
+     *  One Lot, Multiple Lots, All Lots
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PartPresentationCode $partPresentationCode
+     * @return self
+     */
+    public function setPartPresentationCode(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PartPresentationCode $partPresentationCode = null)
+    {
+        $this->partPresentationCode = $partPresentationCode;
+        return $this;
+    }
+
+    /**
+     * Gets as contractingSystemCode
+     *
+     * BBIE
+     *  Tendering Process. Contracting System Code. Code
+     *  A code signifying the type of contracting system (e.g., framework agreement, dynamic purchasing system). If the procedure is individual (nonrepetitive), this code should be omitted.
+     *  0..1
+     *  Tendering Process
+     *  Contracting System Code
+     *  Code
+     *  Code. Type
+     *  Framework Agreement, Dynamic Purchasing System
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ContractingSystemCode
+     */
+    public function getContractingSystemCode()
+    {
+        return $this->contractingSystemCode;
+    }
+
+    /**
+     * Sets a new contractingSystemCode
+     *
+     * BBIE
+     *  Tendering Process. Contracting System Code. Code
+     *  A code signifying the type of contracting system (e.g., framework agreement, dynamic purchasing system). If the procedure is individual (nonrepetitive), this code should be omitted.
+     *  0..1
+     *  Tendering Process
+     *  Contracting System Code
+     *  Code
+     *  Code. Type
+     *  Framework Agreement, Dynamic Purchasing System
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ContractingSystemCode $contractingSystemCode
+     * @return self
+     */
+    public function setContractingSystemCode(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ContractingSystemCode $contractingSystemCode = null)
+    {
+        $this->contractingSystemCode = $contractingSystemCode;
+        return $this;
+    }
+
+    /**
+     * Gets as submissionMethodCode
+     *
+     * BBIE
+     *  Tendering Process. Submission Method Code. Code
+     *  A code signifying the method to be followed in submitting tenders.
+     *  0..1
+     *  Tendering Process
+     *  Submission Method Code
+     *  Code
+     *  Code. Type
+     *  Manual, Electronically, etc.
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\SubmissionMethodCode
+     */
+    public function getSubmissionMethodCode()
+    {
+        return $this->submissionMethodCode;
+    }
+
+    /**
+     * Sets a new submissionMethodCode
+     *
+     * BBIE
+     *  Tendering Process. Submission Method Code. Code
+     *  A code signifying the method to be followed in submitting tenders.
+     *  0..1
+     *  Tendering Process
+     *  Submission Method Code
+     *  Code
+     *  Code. Type
+     *  Manual, Electronically, etc.
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\SubmissionMethodCode $submissionMethodCode
+     * @return self
+     */
+    public function setSubmissionMethodCode(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\SubmissionMethodCode $submissionMethodCode = null)
+    {
+        $this->submissionMethodCode = $submissionMethodCode;
+        return $this;
+    }
+
+    /**
+     * Gets as candidateReductionConstraintIndicator
+     *
+     * BBIE
+     *  Tendering Process. Candidate Reduction_ Constraint. Indicator
+     *  An indicator that the number of candidates participating in this process has been reduced (true) or not (false).
+     *  0..1
+     *  Tendering Process
+     *  Candidate Reduction
+     *  Constraint
+     *  Indicator
+     *  Indicator. Type
+     *
+     * @return bool
+     */
+    public function getCandidateReductionConstraintIndicator()
+    {
+        return $this->candidateReductionConstraintIndicator;
+    }
+
+    /**
+     * Sets a new candidateReductionConstraintIndicator
+     *
+     * BBIE
+     *  Tendering Process. Candidate Reduction_ Constraint. Indicator
+     *  An indicator that the number of candidates participating in this process has been reduced (true) or not (false).
+     *  0..1
+     *  Tendering Process
+     *  Candidate Reduction
+     *  Constraint
+     *  Indicator
+     *  Indicator. Type
+     *
+     * @param bool $candidateReductionConstraintIndicator
+     * @return self
+     */
+    public function setCandidateReductionConstraintIndicator($candidateReductionConstraintIndicator)
+    {
+        $this->candidateReductionConstraintIndicator = $candidateReductionConstraintIndicator;
+        return $this;
+    }
+
+    /**
+     * Gets as governmentAgreementConstraintIndicator
+     *
+     * BBIE
+     *  Tendering Process. Government Agreement_ Constraint. Indicator
+     *  An indicator that the project associated with this tendering process is constrained by a government procurement agreement (true) or not (false).
+     *  0..1
+     *  Tendering Process
+     *  Government Agreement
+     *  Constraint
+     *  Indicator
+     *  Indicator. Type
+     *
+     * @return bool
+     */
+    public function getGovernmentAgreementConstraintIndicator()
+    {
+        return $this->governmentAgreementConstraintIndicator;
+    }
+
+    /**
+     * Sets a new governmentAgreementConstraintIndicator
+     *
+     * BBIE
+     *  Tendering Process. Government Agreement_ Constraint. Indicator
+     *  An indicator that the project associated with this tendering process is constrained by a government procurement agreement (true) or not (false).
+     *  0..1
+     *  Tendering Process
+     *  Government Agreement
+     *  Constraint
+     *  Indicator
+     *  Indicator. Type
+     *
+     * @param bool $governmentAgreementConstraintIndicator
+     * @return self
+     */
+    public function setGovernmentAgreementConstraintIndicator($governmentAgreementConstraintIndicator)
+    {
+        $this->governmentAgreementConstraintIndicator = $governmentAgreementConstraintIndicator;
+        return $this;
+    }
+
+    /**
+     * Gets as accessToolsURI
+     *
+     * BBIE
+     *  Tendering Process. Access Tools_ URI. Identifier
+     *  The URI where the tools for electronic communication related with the tendering process can be found.
+     *  0..1
+     *  Tendering Process
+     *  Access Tools
+     *  URI
+     *  Identifier
+     *  Identifier. Type
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\AccessToolsURI
+     */
+    public function getAccessToolsURI()
+    {
+        return $this->accessToolsURI;
+    }
+
+    /**
+     * Sets a new accessToolsURI
+     *
+     * BBIE
+     *  Tendering Process. Access Tools_ URI. Identifier
+     *  The URI where the tools for electronic communication related with the tendering process can be found.
+     *  0..1
+     *  Tendering Process
+     *  Access Tools
+     *  URI
+     *  Identifier
+     *  Identifier. Type
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\AccessToolsURI $accessToolsURI
+     * @return self
+     */
+    public function setAccessToolsURI(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\AccessToolsURI $accessToolsURI = null)
+    {
+        $this->accessToolsURI = $accessToolsURI;
+        return $this;
+    }
+
+    /**
+     * Gets as terminatedIndicator
+     *
+     * BBIE
+     *  Tendering Process. Terminated. Indicator
+     *  An indicator that the competition launched is terminated.
+     *  0..1
+     *  Tendering Process
+     *  Terminated
+     *  Indicator
+     *  Indicator. Type
+     *  PIN call for competition is terminated.
+     *
+     * @return bool
+     */
+    public function getTerminatedIndicator()
+    {
+        return $this->terminatedIndicator;
+    }
+
+    /**
+     * Sets a new terminatedIndicator
+     *
+     * BBIE
+     *  Tendering Process. Terminated. Indicator
+     *  An indicator that the competition launched is terminated.
+     *  0..1
+     *  Tendering Process
+     *  Terminated
+     *  Indicator
+     *  Indicator. Type
+     *  PIN call for competition is terminated.
+     *
+     * @param bool $terminatedIndicator
+     * @return self
+     */
+    public function setTerminatedIndicator($terminatedIndicator)
+    {
+        $this->terminatedIndicator = $terminatedIndicator;
+        return $this;
+    }
+
+    /**
+     * Gets as documentAvailabilityPeriod
+     *
+     * ASBIE
+     *  Tendering Process. Document Availability_ Period. Period
+     *  The period during which documents relating to this tendering process must be completed.
+     *  0..1
+     *  Tendering Process
+     *  Document Availability
+     *  Period
+     *  Period
+     *  Period
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\DocumentAvailabilityPeriod
+     */
+    public function getDocumentAvailabilityPeriod()
+    {
+        return $this->documentAvailabilityPeriod;
+    }
+
+    /**
+     * Sets a new documentAvailabilityPeriod
+     *
+     * ASBIE
+     *  Tendering Process. Document Availability_ Period. Period
+     *  The period during which documents relating to this tendering process must be completed.
+     *  0..1
+     *  Tendering Process
+     *  Document Availability
+     *  Period
+     *  Period
+     *  Period
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\DocumentAvailabilityPeriod $documentAvailabilityPeriod
+     * @return self
+     */
+    public function setDocumentAvailabilityPeriod(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\DocumentAvailabilityPeriod $documentAvailabilityPeriod = null)
+    {
+        $this->documentAvailabilityPeriod = $documentAvailabilityPeriod;
+        return $this;
+    }
+
+    /**
+     * Gets as tenderSubmissionDeadlinePeriod
+     *
+     * ASBIE
+     *  Tendering Process. Tender Submission Deadline_ Period. Period
+     *  The period during which tenders must be delivered.
+     *  0..1
+     *  Tendering Process
+     *  Tender Submission Deadline
+     *  Period
+     *  Period
+     *  Period
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TenderSubmissionDeadlinePeriod
+     */
+    public function getTenderSubmissionDeadlinePeriod()
+    {
+        return $this->tenderSubmissionDeadlinePeriod;
+    }
+
+    /**
+     * Sets a new tenderSubmissionDeadlinePeriod
+     *
+     * ASBIE
+     *  Tendering Process. Tender Submission Deadline_ Period. Period
+     *  The period during which tenders must be delivered.
+     *  0..1
+     *  Tendering Process
+     *  Tender Submission Deadline
+     *  Period
+     *  Period
+     *  Period
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TenderSubmissionDeadlinePeriod $tenderSubmissionDeadlinePeriod
+     * @return self
+     */
+    public function setTenderSubmissionDeadlinePeriod(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TenderSubmissionDeadlinePeriod $tenderSubmissionDeadlinePeriod = null)
+    {
+        $this->tenderSubmissionDeadlinePeriod = $tenderSubmissionDeadlinePeriod;
+        return $this;
+    }
+
+    /**
+     * Gets as invitationSubmissionPeriod
+     *
+     * ASBIE
+     *  Tendering Process. Invitation Submission_ Period. Period
+     *  The period during which invitations to tender must be completed and delivered.
+     *  0..1
+     *  Tendering Process
+     *  Invitation Submission
+     *  Period
+     *  Period
+     *  Period
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\InvitationSubmissionPeriod
+     */
+    public function getInvitationSubmissionPeriod()
+    {
+        return $this->invitationSubmissionPeriod;
+    }
+
+    /**
+     * Sets a new invitationSubmissionPeriod
+     *
+     * ASBIE
+     *  Tendering Process. Invitation Submission_ Period. Period
+     *  The period during which invitations to tender must be completed and delivered.
+     *  0..1
+     *  Tendering Process
+     *  Invitation Submission
+     *  Period
+     *  Period
+     *  Period
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\InvitationSubmissionPeriod $invitationSubmissionPeriod
+     * @return self
+     */
+    public function setInvitationSubmissionPeriod(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\InvitationSubmissionPeriod $invitationSubmissionPeriod = null)
+    {
+        $this->invitationSubmissionPeriod = $invitationSubmissionPeriod;
+        return $this;
+    }
+
+    /**
+     * Gets as participationInvitationPeriod
+     *
+     * ASBIE
+     *  Tendering Process. Participation Invitation_ Period. Period
+     *  The period during which the invitation to participate must be sent.
+     *  0..1
+     *  Tendering Process
+     *  Participation Invitation
+     *  Period
+     *  Period
+     *  Period
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ParticipationInvitationPeriod
+     */
+    public function getParticipationInvitationPeriod()
+    {
+        return $this->participationInvitationPeriod;
+    }
+
+    /**
+     * Sets a new participationInvitationPeriod
+     *
+     * ASBIE
+     *  Tendering Process. Participation Invitation_ Period. Period
+     *  The period during which the invitation to participate must be sent.
+     *  0..1
+     *  Tendering Process
+     *  Participation Invitation
+     *  Period
+     *  Period
+     *  Period
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ParticipationInvitationPeriod $participationInvitationPeriod
+     * @return self
+     */
+    public function setParticipationInvitationPeriod(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ParticipationInvitationPeriod $participationInvitationPeriod = null)
+    {
+        $this->participationInvitationPeriod = $participationInvitationPeriod;
+        return $this;
+    }
+
+    /**
+     * Gets as participationRequestReceptionPeriod
+     *
+     * ASBIE
+     *  Tendering Process. Participation Request Reception_ Period. Period
+     *  The period during which requests for participation must be completed and delivered.
+     *  0..1
+     *  Tendering Process
+     *  Participation Request Reception
+     *  Period
+     *  Period
+     *  Period
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ParticipationRequestReceptionPeriod
+     */
+    public function getParticipationRequestReceptionPeriod()
+    {
+        return $this->participationRequestReceptionPeriod;
+    }
+
+    /**
+     * Sets a new participationRequestReceptionPeriod
+     *
+     * ASBIE
+     *  Tendering Process. Participation Request Reception_ Period. Period
+     *  The period during which requests for participation must be completed and delivered.
+     *  0..1
+     *  Tendering Process
+     *  Participation Request Reception
+     *  Period
+     *  Period
+     *  Period
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ParticipationRequestReceptionPeriod $participationRequestReceptionPeriod
+     * @return self
+     */
+    public function setParticipationRequestReceptionPeriod(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ParticipationRequestReceptionPeriod $participationRequestReceptionPeriod = null)
+    {
+        $this->participationRequestReceptionPeriod = $participationRequestReceptionPeriod;
+        return $this;
+    }
+
+    /**
+     * Gets as additionalInformationRequestPeriod
+     *
+     * ASBIE
+     *  Tendering Process. Additional Information Request_ Period. Period
+     *  The period during which additional information about the procurement can be requested.
+     *  0..1
+     *  Tendering Process
+     *  Additional Information Request
+     *  Period
+     *  Period
+     *  Period
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AdditionalInformationRequestPeriod
+     */
+    public function getAdditionalInformationRequestPeriod()
+    {
+        return $this->additionalInformationRequestPeriod;
+    }
+
+    /**
+     * Sets a new additionalInformationRequestPeriod
+     *
+     * ASBIE
+     *  Tendering Process. Additional Information Request_ Period. Period
+     *  The period during which additional information about the procurement can be requested.
+     *  0..1
+     *  Tendering Process
+     *  Additional Information Request
+     *  Period
+     *  Period
+     *  Period
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AdditionalInformationRequestPeriod $additionalInformationRequestPeriod
+     * @return self
+     */
+    public function setAdditionalInformationRequestPeriod(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AdditionalInformationRequestPeriod $additionalInformationRequestPeriod = null)
+    {
+        $this->additionalInformationRequestPeriod = $additionalInformationRequestPeriod;
+        return $this;
+    }
+
+    /**
+     * Adds as noticeDocumentReference
+     *
+     * ASBIE
+     *  Tendering Process. Notice_ Document Reference. Document Reference
+     *  A reference to a notice pertaining to this tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Notice
+     *  Document Reference
+     *  Document Reference
+     *  Document Reference
+     *
+     * @return self
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\NoticeDocumentReference $noticeDocumentReference
+     */
+    public function addToNoticeDocumentReference(\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\NoticeDocumentReference $noticeDocumentReference)
+    {
+        $this->noticeDocumentReference[] = $noticeDocumentReference;
+        return $this;
+    }
+
+    /**
+     * isset noticeDocumentReference
+     *
+     * ASBIE
+     *  Tendering Process. Notice_ Document Reference. Document Reference
+     *  A reference to a notice pertaining to this tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Notice
+     *  Document Reference
+     *  Document Reference
+     *  Document Reference
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetNoticeDocumentReference($index)
+    {
+        return isset($this->noticeDocumentReference[$index]);
+    }
+
+    /**
+     * unset noticeDocumentReference
+     *
+     * ASBIE
+     *  Tendering Process. Notice_ Document Reference. Document Reference
+     *  A reference to a notice pertaining to this tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Notice
+     *  Document Reference
+     *  Document Reference
+     *  Document Reference
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetNoticeDocumentReference($index)
+    {
+        unset($this->noticeDocumentReference[$index]);
+    }
+
+    /**
+     * Gets as noticeDocumentReference
+     *
+     * ASBIE
+     *  Tendering Process. Notice_ Document Reference. Document Reference
+     *  A reference to a notice pertaining to this tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Notice
+     *  Document Reference
+     *  Document Reference
+     *  Document Reference
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\NoticeDocumentReference[]
+     */
+    public function getNoticeDocumentReference()
+    {
+        return $this->noticeDocumentReference;
+    }
+
+    /**
+     * Sets a new noticeDocumentReference
+     *
+     * ASBIE
+     *  Tendering Process. Notice_ Document Reference. Document Reference
+     *  A reference to a notice pertaining to this tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Notice
+     *  Document Reference
+     *  Document Reference
+     *  Document Reference
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\NoticeDocumentReference[] $noticeDocumentReference
+     * @return self
+     */
+    public function setNoticeDocumentReference(?array $noticeDocumentReference = null)
+    {
+        $this->noticeDocumentReference = $noticeDocumentReference;
+        return $this;
+    }
+
+    /**
+     * Adds as additionalDocumentReference
+     *
+     * ASBIE
+     *  Tendering Process. Additional_ Document Reference. Document Reference
+     *  A reference to an additional document.
+     *  0..n
+     *  Tendering Process
+     *  Additional
+     *  Document Reference
+     *  Document Reference
+     *  Document Reference
+     *
+     * @return self
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AdditionalDocumentReference $additionalDocumentReference
+     */
+    public function addToAdditionalDocumentReference(\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AdditionalDocumentReference $additionalDocumentReference)
+    {
+        $this->additionalDocumentReference[] = $additionalDocumentReference;
+        return $this;
+    }
+
+    /**
+     * isset additionalDocumentReference
+     *
+     * ASBIE
+     *  Tendering Process. Additional_ Document Reference. Document Reference
+     *  A reference to an additional document.
+     *  0..n
+     *  Tendering Process
+     *  Additional
+     *  Document Reference
+     *  Document Reference
+     *  Document Reference
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetAdditionalDocumentReference($index)
+    {
+        return isset($this->additionalDocumentReference[$index]);
+    }
+
+    /**
+     * unset additionalDocumentReference
+     *
+     * ASBIE
+     *  Tendering Process. Additional_ Document Reference. Document Reference
+     *  A reference to an additional document.
+     *  0..n
+     *  Tendering Process
+     *  Additional
+     *  Document Reference
+     *  Document Reference
+     *  Document Reference
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetAdditionalDocumentReference($index)
+    {
+        unset($this->additionalDocumentReference[$index]);
+    }
+
+    /**
+     * Gets as additionalDocumentReference
+     *
+     * ASBIE
+     *  Tendering Process. Additional_ Document Reference. Document Reference
+     *  A reference to an additional document.
+     *  0..n
+     *  Tendering Process
+     *  Additional
+     *  Document Reference
+     *  Document Reference
+     *  Document Reference
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AdditionalDocumentReference[]
+     */
+    public function getAdditionalDocumentReference()
+    {
+        return $this->additionalDocumentReference;
+    }
+
+    /**
+     * Sets a new additionalDocumentReference
+     *
+     * ASBIE
+     *  Tendering Process. Additional_ Document Reference. Document Reference
+     *  A reference to an additional document.
+     *  0..n
+     *  Tendering Process
+     *  Additional
+     *  Document Reference
+     *  Document Reference
+     *  Document Reference
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AdditionalDocumentReference[] $additionalDocumentReference
+     * @return self
+     */
+    public function setAdditionalDocumentReference(?array $additionalDocumentReference = null)
+    {
+        $this->additionalDocumentReference = $additionalDocumentReference;
+        return $this;
+    }
+
+    /**
+     * Adds as processJustification
+     *
+     * ASBIE
+     *  Tendering Process. Process Justification
+     *  A justification for the selection of this tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Process Justification
+     *  Process Justification
+     *  Process Justification
+     *
+     * @return self
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ProcessJustification $processJustification
+     */
+    public function addToProcessJustification(\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ProcessJustification $processJustification)
+    {
+        $this->processJustification[] = $processJustification;
+        return $this;
+    }
+
+    /**
+     * isset processJustification
+     *
+     * ASBIE
+     *  Tendering Process. Process Justification
+     *  A justification for the selection of this tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Process Justification
+     *  Process Justification
+     *  Process Justification
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetProcessJustification($index)
+    {
+        return isset($this->processJustification[$index]);
+    }
+
+    /**
+     * unset processJustification
+     *
+     * ASBIE
+     *  Tendering Process. Process Justification
+     *  A justification for the selection of this tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Process Justification
+     *  Process Justification
+     *  Process Justification
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetProcessJustification($index)
+    {
+        unset($this->processJustification[$index]);
+    }
+
+    /**
+     * Gets as processJustification
+     *
+     * ASBIE
+     *  Tendering Process. Process Justification
+     *  A justification for the selection of this tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Process Justification
+     *  Process Justification
+     *  Process Justification
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ProcessJustification[]
+     */
+    public function getProcessJustification()
+    {
+        return $this->processJustification;
+    }
+
+    /**
+     * Sets a new processJustification
+     *
+     * ASBIE
+     *  Tendering Process. Process Justification
+     *  A justification for the selection of this tendering process.
+     *  0..n
+     *  Tendering Process
+     *  Process Justification
+     *  Process Justification
+     *  Process Justification
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ProcessJustification[] $processJustification
+     * @return self
+     */
+    public function setProcessJustification(?array $processJustification = null)
+    {
+        $this->processJustification = $processJustification;
+        return $this;
+    }
+
+    /**
+     * Adds as economicOperatorShortList
+     *
+     * ASBIE
+     *  Tendering Process. Economic Operator Short List
+     *  A set of criteria used to create a short list of candidates.
+     *  0..n
+     *  Tendering Process
+     *  Economic Operator Short List
+     *  Economic Operator Short List
+     *  Economic Operator Short List
+     *
+     * @return self
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\EconomicOperatorShortList $economicOperatorShortList
+     */
+    public function addToEconomicOperatorShortList(\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\EconomicOperatorShortList $economicOperatorShortList)
+    {
+        $this->economicOperatorShortList[] = $economicOperatorShortList;
+        return $this;
+    }
+
+    /**
+     * isset economicOperatorShortList
+     *
+     * ASBIE
+     *  Tendering Process. Economic Operator Short List
+     *  A set of criteria used to create a short list of candidates.
+     *  0..n
+     *  Tendering Process
+     *  Economic Operator Short List
+     *  Economic Operator Short List
+     *  Economic Operator Short List
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetEconomicOperatorShortList($index)
+    {
+        return isset($this->economicOperatorShortList[$index]);
+    }
+
+    /**
+     * unset economicOperatorShortList
+     *
+     * ASBIE
+     *  Tendering Process. Economic Operator Short List
+     *  A set of criteria used to create a short list of candidates.
+     *  0..n
+     *  Tendering Process
+     *  Economic Operator Short List
+     *  Economic Operator Short List
+     *  Economic Operator Short List
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetEconomicOperatorShortList($index)
+    {
+        unset($this->economicOperatorShortList[$index]);
+    }
+
+    /**
+     * Gets as economicOperatorShortList
+     *
+     * ASBIE
+     *  Tendering Process. Economic Operator Short List
+     *  A set of criteria used to create a short list of candidates.
+     *  0..n
+     *  Tendering Process
+     *  Economic Operator Short List
+     *  Economic Operator Short List
+     *  Economic Operator Short List
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\EconomicOperatorShortList[]
+     */
+    public function getEconomicOperatorShortList()
+    {
+        return $this->economicOperatorShortList;
+    }
+
+    /**
+     * Sets a new economicOperatorShortList
+     *
+     * ASBIE
+     *  Tendering Process. Economic Operator Short List
+     *  A set of criteria used to create a short list of candidates.
+     *  0..n
+     *  Tendering Process
+     *  Economic Operator Short List
+     *  Economic Operator Short List
+     *  Economic Operator Short List
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\EconomicOperatorShortList[] $economicOperatorShortList
+     * @return self
+     */
+    public function setEconomicOperatorShortList(?array $economicOperatorShortList = null)
+    {
+        $this->economicOperatorShortList = $economicOperatorShortList;
+        return $this;
+    }
+
+    /**
+     * Adds as openTenderEvent
+     *
+     * ASBIE
+     *  Tendering Process. Open Tender_ Event. Event
+     *  Textual description of the legal form required for potential tenderers.
+     *  0..n
+     *  Tendering Process
+     *  Open Tender
+     *  Event
+     *  Event
+     *  Event
+     *
+     * @return self
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\OpenTenderEvent $openTenderEvent
+     */
+    public function addToOpenTenderEvent(\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\OpenTenderEvent $openTenderEvent)
+    {
+        $this->openTenderEvent[] = $openTenderEvent;
+        return $this;
+    }
+
+    /**
+     * isset openTenderEvent
+     *
+     * ASBIE
+     *  Tendering Process. Open Tender_ Event. Event
+     *  Textual description of the legal form required for potential tenderers.
+     *  0..n
+     *  Tendering Process
+     *  Open Tender
+     *  Event
+     *  Event
+     *  Event
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetOpenTenderEvent($index)
+    {
+        return isset($this->openTenderEvent[$index]);
+    }
+
+    /**
+     * unset openTenderEvent
+     *
+     * ASBIE
+     *  Tendering Process. Open Tender_ Event. Event
+     *  Textual description of the legal form required for potential tenderers.
+     *  0..n
+     *  Tendering Process
+     *  Open Tender
+     *  Event
+     *  Event
+     *  Event
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetOpenTenderEvent($index)
+    {
+        unset($this->openTenderEvent[$index]);
+    }
+
+    /**
+     * Gets as openTenderEvent
+     *
+     * ASBIE
+     *  Tendering Process. Open Tender_ Event. Event
+     *  Textual description of the legal form required for potential tenderers.
+     *  0..n
+     *  Tendering Process
+     *  Open Tender
+     *  Event
+     *  Event
+     *  Event
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\OpenTenderEvent[]
+     */
+    public function getOpenTenderEvent()
+    {
+        return $this->openTenderEvent;
+    }
+
+    /**
+     * Sets a new openTenderEvent
+     *
+     * ASBIE
+     *  Tendering Process. Open Tender_ Event. Event
+     *  Textual description of the legal form required for potential tenderers.
+     *  0..n
+     *  Tendering Process
+     *  Open Tender
+     *  Event
+     *  Event
+     *  Event
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\OpenTenderEvent[] $openTenderEvent
+     * @return self
+     */
+    public function setOpenTenderEvent(?array $openTenderEvent = null)
+    {
+        $this->openTenderEvent = $openTenderEvent;
+        return $this;
+    }
+
+    /**
+     * Gets as auctionTerms
+     *
+     * ASBIE
+     *  Tendering Process. Auction Terms
+     *  The terms to be fulfilled by tenderers if an auction is to be executed before the awarding of a tender.
+     *  0..1
+     *  Tendering Process
+     *  Auction Terms
+     *  Auction Terms
+     *  Auction Terms
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AuctionTerms
+     */
+    public function getAuctionTerms()
+    {
+        return $this->auctionTerms;
+    }
+
+    /**
+     * Sets a new auctionTerms
+     *
+     * ASBIE
+     *  Tendering Process. Auction Terms
+     *  The terms to be fulfilled by tenderers if an auction is to be executed before the awarding of a tender.
+     *  0..1
+     *  Tendering Process
+     *  Auction Terms
+     *  Auction Terms
+     *  Auction Terms
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AuctionTerms $auctionTerms
+     * @return self
+     */
+    public function setAuctionTerms(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AuctionTerms $auctionTerms = null)
+    {
+        $this->auctionTerms = $auctionTerms;
+        return $this;
+    }
+
+    /**
+     * Gets as frameworkAgreement
+     *
+     * ASBIE
+     *  Tendering Process. Framework Agreement
+     *  A tendering framework agreement.
+     *  0..1
+     *  Tendering Process
+     *  Framework Agreement
+     *  Framework Agreement
+     *  Framework Agreement
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\FrameworkAgreement
+     */
+    public function getFrameworkAgreement()
+    {
+        return $this->frameworkAgreement;
+    }
+
+    /**
+     * Sets a new frameworkAgreement
+     *
+     * ASBIE
+     *  Tendering Process. Framework Agreement
+     *  A tendering framework agreement.
+     *  0..1
+     *  Tendering Process
+     *  Framework Agreement
+     *  Framework Agreement
+     *  Framework Agreement
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\FrameworkAgreement $frameworkAgreement
+     * @return self
+     */
+    public function setFrameworkAgreement(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\FrameworkAgreement $frameworkAgreement = null)
+    {
+        $this->frameworkAgreement = $frameworkAgreement;
+        return $this;
+    }
+
+    /**
+     * Adds as contractingSystem
+     *
+     * ASBIE
+     *  Tendering Process. Contracting System
+     *  A reference to a contracting system. Only when the procedure is repetitive.
+     *  0..n
+     *  Tendering Process
+     *  Contracting System
+     *  Contracting System
+     *  Contracting System
+     *
+     * @return self
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ContractingSystem $contractingSystem
+     */
+    public function addToContractingSystem(\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ContractingSystem $contractingSystem)
+    {
+        $this->contractingSystem[] = $contractingSystem;
+        return $this;
+    }
+
+    /**
+     * isset contractingSystem
+     *
+     * ASBIE
+     *  Tendering Process. Contracting System
+     *  A reference to a contracting system. Only when the procedure is repetitive.
+     *  0..n
+     *  Tendering Process
+     *  Contracting System
+     *  Contracting System
+     *  Contracting System
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetContractingSystem($index)
+    {
+        return isset($this->contractingSystem[$index]);
+    }
+
+    /**
+     * unset contractingSystem
+     *
+     * ASBIE
+     *  Tendering Process. Contracting System
+     *  A reference to a contracting system. Only when the procedure is repetitive.
+     *  0..n
+     *  Tendering Process
+     *  Contracting System
+     *  Contracting System
+     *  Contracting System
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetContractingSystem($index)
+    {
+        unset($this->contractingSystem[$index]);
+    }
+
+    /**
+     * Gets as contractingSystem
+     *
+     * ASBIE
+     *  Tendering Process. Contracting System
+     *  A reference to a contracting system. Only when the procedure is repetitive.
+     *  0..n
+     *  Tendering Process
+     *  Contracting System
+     *  Contracting System
+     *  Contracting System
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ContractingSystem[]
+     */
+    public function getContractingSystem()
+    {
+        return $this->contractingSystem;
+    }
+
+    /**
+     * Sets a new contractingSystem
+     *
+     * ASBIE
+     *  Tendering Process. Contracting System
+     *  A reference to a contracting system. Only when the procedure is repetitive.
+     *  0..n
+     *  Tendering Process
+     *  Contracting System
+     *  Contracting System
+     *  Contracting System
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ContractingSystem[] $contractingSystem
+     * @return self
+     */
+    public function setContractingSystem(?array $contractingSystem = null)
+    {
+        $this->contractingSystem = $contractingSystem;
+        return $this;
+    }
+}
+

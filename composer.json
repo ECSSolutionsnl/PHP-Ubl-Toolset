@@ -1,0 +1,15 @@
+{
+    "name": "ecssolutions/ubl-toolset",
+    "description": "UBL XML toolset using PHP",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "jms/serializer": "^3.32",
+        "goetas-webservices/xsd2php": "^0.4.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "ECSSolutions\\UblToolset\\" : "./"
+        }
+    }
+}

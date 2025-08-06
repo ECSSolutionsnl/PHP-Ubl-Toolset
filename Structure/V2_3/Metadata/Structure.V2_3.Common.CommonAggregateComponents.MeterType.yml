@@ -1,0 +1,95 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\MeterType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        meterNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: MeterNumber
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMeterNumber
+                setter: setMeterNumber
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MeterNumber
+        meterName:
+            expose: true
+            access_type: public_method
+            serialized_name: MeterName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMeterName
+                setter: setMeterName
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MeterName
+        meterConstant:
+            expose: true
+            access_type: public_method
+            serialized_name: MeterConstant
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMeterConstant
+                setter: setMeterConstant
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MeterConstant
+        meterConstantCode:
+            expose: true
+            access_type: public_method
+            serialized_name: MeterConstantCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMeterConstantCode
+                setter: setMeterConstantCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MeterConstantCode
+        totalDeliveredQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalDeliveredQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalDeliveredQuantity
+                setter: setTotalDeliveredQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TotalDeliveredQuantity
+        meterReading:
+            expose: true
+            access_type: public_method
+            serialized_name: MeterReading
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMeterReading
+                setter: setMeterReading
+            xml_list:
+                inline: true
+                entry_name: MeterReading
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\MeterReading>
+        meterProperty:
+            expose: true
+            access_type: public_method
+            serialized_name: MeterProperty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMeterProperty
+                setter: setMeterProperty
+            xml_list:
+                inline: true
+                entry_name: MeterProperty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\MeterProperty>

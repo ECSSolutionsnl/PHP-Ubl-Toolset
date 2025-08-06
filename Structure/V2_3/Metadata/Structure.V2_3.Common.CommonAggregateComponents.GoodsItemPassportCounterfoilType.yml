@@ -1,0 +1,151 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\GoodsItemPassportCounterfoilType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        goodsItemPassportID:
+            expose: true
+            access_type: public_method
+            serialized_name: GoodsItemPassportID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGoodsItemPassportID
+                setter: setGoodsItemPassportID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\GoodsItemPassportID
+        finalReexportationDate:
+            expose: true
+            access_type: public_method
+            serialized_name: FinalReexportationDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFinalReexportationDate
+                setter: setFinalReexportationDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Note>
+        customsOfficeLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomsOfficeLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCustomsOfficeLocation
+                setter: setCustomsOfficeLocation
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\CustomsOfficeLocation
+        goodsItem:
+            expose: true
+            access_type: public_method
+            serialized_name: GoodsItem
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getGoodsItem
+                setter: setGoodsItem
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\GoodsItem
+        exportationDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: ExportationDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getExportationDocumentReference
+                setter: setExportationDocumentReference
+            xml_list:
+                inline: true
+                entry_name: ExportationDocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ExportationDocumentReference>
+        importationDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: ImportationDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getImportationDocumentReference
+                setter: setImportationDocumentReference
+            xml_list:
+                inline: true
+                entry_name: ImportationDocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ImportationDocumentReference>
+        reexportationDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: ReexportationDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getReexportationDocumentReference
+                setter: setReexportationDocumentReference
+            xml_list:
+                inline: true
+                entry_name: ReexportationDocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ReexportationDocumentReference>
+        reimportationDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: ReimportationDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getReimportationDocumentReference
+                setter: setReimportationDocumentReference
+            xml_list:
+                inline: true
+                entry_name: ReimportationDocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ReimportationDocumentReference>
+        voucherDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: VoucherDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getVoucherDocumentReference
+                setter: setVoucherDocumentReference
+            xml_list:
+                inline: true
+                entry_name: VoucherDocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\VoucherDocumentReference>

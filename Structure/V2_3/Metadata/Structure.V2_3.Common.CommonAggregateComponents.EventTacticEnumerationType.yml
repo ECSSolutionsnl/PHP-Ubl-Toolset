@@ -1,0 +1,57 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\EventTacticEnumerationType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        consumerIncentiveTacticTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumerIncentiveTacticTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumerIncentiveTacticTypeCode
+                setter: setConsumerIncentiveTacticTypeCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ConsumerIncentiveTacticTypeCode
+        displayTacticTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DisplayTacticTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDisplayTacticTypeCode
+                setter: setDisplayTacticTypeCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\DisplayTacticTypeCode
+        featureTacticTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: FeatureTacticTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFeatureTacticTypeCode
+                setter: setFeatureTacticTypeCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\FeatureTacticTypeCode
+        tradeItemPackingLabelingTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TradeItemPackingLabelingTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTradeItemPackingLabelingTypeCode
+                setter: setTradeItemPackingLabelingTypeCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TradeItemPackingLabelingTypeCode

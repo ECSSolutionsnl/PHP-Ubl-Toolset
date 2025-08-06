@@ -1,0 +1,81 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TaxTotalType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        taxAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxAmount
+                setter: setTaxAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TaxAmount
+        calculationSequenceNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: CalculationSequenceNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCalculationSequenceNumeric
+                setter: setCalculationSequenceNumeric
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CalculationSequenceNumeric
+        roundingAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: RoundingAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRoundingAmount
+                setter: setRoundingAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\RoundingAmount
+        taxEvidenceIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxEvidenceIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxEvidenceIndicator
+                setter: setTaxEvidenceIndicator
+            type: bool
+        taxIncludedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxIncludedIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxIncludedIndicator
+                setter: setTaxIncludedIndicator
+            type: bool
+        taxSubtotal:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxSubtotal
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxSubtotal
+                setter: setTaxSubtotal
+            xml_list:
+                inline: true
+                entry_name: TaxSubtotal
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TaxSubtotal>

@@ -1,0 +1,215 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\DespatchType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        requestedDespatchDate:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestedDespatchDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRequestedDespatchDate
+                setter: setRequestedDespatchDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        requestedDespatchTime:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestedDespatchTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRequestedDespatchTime
+                setter: setRequestedDespatchTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        estimatedDespatchDate:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedDespatchDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEstimatedDespatchDate
+                setter: setEstimatedDespatchDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        estimatedDespatchTime:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedDespatchTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEstimatedDespatchTime
+                setter: setEstimatedDespatchTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        actualDespatchDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualDespatchDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActualDespatchDate
+                setter: setActualDespatchDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        actualDespatchTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualDespatchTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActualDespatchTime
+                setter: setActualDespatchTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        guaranteedDespatchDate:
+            expose: true
+            access_type: public_method
+            serialized_name: GuaranteedDespatchDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGuaranteedDespatchDate
+                setter: setGuaranteedDespatchDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        guaranteedDespatchTime:
+            expose: true
+            access_type: public_method
+            serialized_name: GuaranteedDespatchTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGuaranteedDespatchTime
+                setter: setGuaranteedDespatchTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        releaseID:
+            expose: true
+            access_type: public_method
+            serialized_name: ReleaseID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReleaseID
+                setter: setReleaseID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ReleaseID
+        instructions:
+            expose: true
+            access_type: public_method
+            serialized_name: Instructions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInstructions
+                setter: setInstructions
+            xml_list:
+                inline: true
+                entry_name: Instructions
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Instructions>
+        despatchAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: DespatchAddress
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDespatchAddress
+                setter: setDespatchAddress
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\DespatchAddress
+        despatchLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: DespatchLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDespatchLocation
+                setter: setDespatchLocation
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\DespatchLocation
+        despatchParty:
+            expose: true
+            access_type: public_method
+            serialized_name: DespatchParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDespatchParty
+                setter: setDespatchParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\DespatchParty
+        carrierParty:
+            expose: true
+            access_type: public_method
+            serialized_name: CarrierParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCarrierParty
+                setter: setCarrierParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\CarrierParty
+        notifyParty:
+            expose: true
+            access_type: public_method
+            serialized_name: NotifyParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getNotifyParty
+                setter: setNotifyParty
+            xml_list:
+                inline: true
+                entry_name: NotifyParty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\NotifyParty>
+        contact:
+            expose: true
+            access_type: public_method
+            serialized_name: Contact
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContact
+                setter: setContact
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Contact
+        estimatedDespatchPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedDespatchPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getEstimatedDespatchPeriod
+                setter: setEstimatedDespatchPeriod
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\EstimatedDespatchPeriod
+        requestedDespatchPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestedDespatchPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRequestedDespatchPeriod
+                setter: setRequestedDespatchPeriod
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\RequestedDespatchPeriod

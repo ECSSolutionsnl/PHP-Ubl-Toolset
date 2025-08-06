@@ -1,0 +1,3 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\SpeedOverGroundMeasure:
+    xml_root_name: SpeedOverGroundMeasure
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

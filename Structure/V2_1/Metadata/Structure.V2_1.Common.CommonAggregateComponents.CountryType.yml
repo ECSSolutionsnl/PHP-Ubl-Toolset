@@ -1,0 +1,22 @@
+ECSSolutions\UblToolset\Structure\V2_1\Common\CommonAggregateComponents\CountryType:
+    properties:
+        identificationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: IdentificationCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIdentificationCode
+                setter: setIdentificationCode
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonBasicComponents\IdentificationCode
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonBasicComponents\Name

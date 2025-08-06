@@ -1,0 +1,141 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\CustomsDeclarationType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        validityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidityPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getValidityPeriod
+                setter: setValidityPeriod
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ValidityPeriod
+        applicableTerritoryAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: ApplicableTerritoryAddress
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getApplicableTerritoryAddress
+                setter: setApplicableTerritoryAddress
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ApplicableTerritoryAddress
+        shipment:
+            expose: true
+            access_type: public_method
+            serialized_name: Shipment
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getShipment
+                setter: setShipment
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Shipment
+        customsExitOfficeLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomsExitOfficeLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCustomsExitOfficeLocation
+                setter: setCustomsExitOfficeLocation
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\CustomsExitOfficeLocation
+        issuerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuerParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getIssuerParty
+                setter: setIssuerParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\IssuerParty
+        consignorParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsignorParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getConsignorParty
+                setter: setConsignorParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ConsignorParty
+        consigneeParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsigneeParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getConsigneeParty
+                setter: setConsigneeParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ConsigneeParty
+        freightForwarderParty:
+            expose: true
+            access_type: public_method
+            serialized_name: FreightForwarderParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFreightForwarderParty
+                setter: setFreightForwarderParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\FreightForwarderParty
+        customsParty:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomsParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCustomsParty
+                setter: setCustomsParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\CustomsParty
+        previousCustomsDeclaration:
+            expose: true
+            access_type: public_method
+            serialized_name: PreviousCustomsDeclaration
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPreviousCustomsDeclaration
+                setter: setPreviousCustomsDeclaration
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\PreviousCustomsDeclaration
+        additionalDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAdditionalDocumentReference
+                setter: setAdditionalDocumentReference
+            xml_list:
+                inline: true
+                entry_name: AdditionalDocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AdditionalDocumentReference>

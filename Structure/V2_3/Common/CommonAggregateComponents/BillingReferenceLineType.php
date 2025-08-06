@@ -1,0 +1,314 @@
+<?php
+
+namespace ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents;
+
+/**
+ * Class representing BillingReferenceLineType
+ *
+ * ABIE
+ *  Billing Reference Line. Details
+ *  A class to define a reference to a transaction line in a billing document.
+ *  Billing Reference Line
+ * XSD Type: BillingReferenceLineType
+ */
+class BillingReferenceLineType
+{
+    /**
+     * A container for extensions foreign to the document.
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension[] $uBLExtensions
+     */
+    private $uBLExtensions = null;
+
+    /**
+     * BBIE
+     *  Billing Reference Line. Identifier
+     *  An identifier for this transaction line in a billing document.
+     *  1
+     *  Billing Reference Line
+     *  Identifier
+     *  Identifier
+     *  Identifier. Type
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID $iD
+     */
+    private $iD = null;
+
+    /**
+     * BBIE
+     *  Billing Reference Line. Amount
+     *  The monetary amount of the transaction line, including any allowances and charges but excluding taxes.
+     *  0..1
+     *  Billing Reference Line
+     *  Amount
+     *  Amount
+     *  Amount. Type
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Amount $amount
+     */
+    private $amount = null;
+
+    /**
+     * ASBIE
+     *  Billing Reference Line. Allowance Charge
+     *  An allowance or charge applicable to the transaction line.
+     *  0..n
+     *  Billing Reference Line
+     *  Allowance Charge
+     *  Allowance Charge
+     *  Allowance Charge
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AllowanceCharge[] $allowanceCharge
+     */
+    private $allowanceCharge = [
+        
+    ];
+
+    /**
+     * Adds as uBLExtension
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @return self
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension $uBLExtension
+     */
+    public function addToUBLExtensions(\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension $uBLExtension)
+    {
+        $this->uBLExtensions[] = $uBLExtension;
+        return $this;
+    }
+
+    /**
+     * isset uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetUBLExtensions($index)
+    {
+        return isset($this->uBLExtensions[$index]);
+    }
+
+    /**
+     * unset uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetUBLExtensions($index)
+    {
+        unset($this->uBLExtensions[$index]);
+    }
+
+    /**
+     * Gets as uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension[]
+     */
+    public function getUBLExtensions()
+    {
+        return $this->uBLExtensions;
+    }
+
+    /**
+     * Sets a new uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension[] $uBLExtensions
+     * @return self
+     */
+    public function setUBLExtensions(?array $uBLExtensions = null)
+    {
+        $this->uBLExtensions = $uBLExtensions;
+        return $this;
+    }
+
+    /**
+     * Gets as iD
+     *
+     * BBIE
+     *  Billing Reference Line. Identifier
+     *  An identifier for this transaction line in a billing document.
+     *  1
+     *  Billing Reference Line
+     *  Identifier
+     *  Identifier
+     *  Identifier. Type
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+     */
+    public function getID()
+    {
+        return $this->iD;
+    }
+
+    /**
+     * Sets a new iD
+     *
+     * BBIE
+     *  Billing Reference Line. Identifier
+     *  An identifier for this transaction line in a billing document.
+     *  1
+     *  Billing Reference Line
+     *  Identifier
+     *  Identifier
+     *  Identifier. Type
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID $iD
+     * @return self
+     */
+    public function setID(\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID $iD)
+    {
+        $this->iD = $iD;
+        return $this;
+    }
+
+    /**
+     * Gets as amount
+     *
+     * BBIE
+     *  Billing Reference Line. Amount
+     *  The monetary amount of the transaction line, including any allowances and charges but excluding taxes.
+     *  0..1
+     *  Billing Reference Line
+     *  Amount
+     *  Amount
+     *  Amount. Type
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Amount
+     */
+    public function getAmount()
+    {
+        return $this->amount;
+    }
+
+    /**
+     * Sets a new amount
+     *
+     * BBIE
+     *  Billing Reference Line. Amount
+     *  The monetary amount of the transaction line, including any allowances and charges but excluding taxes.
+     *  0..1
+     *  Billing Reference Line
+     *  Amount
+     *  Amount
+     *  Amount. Type
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Amount $amount
+     * @return self
+     */
+    public function setAmount(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Amount $amount = null)
+    {
+        $this->amount = $amount;
+        return $this;
+    }
+
+    /**
+     * Adds as allowanceCharge
+     *
+     * ASBIE
+     *  Billing Reference Line. Allowance Charge
+     *  An allowance or charge applicable to the transaction line.
+     *  0..n
+     *  Billing Reference Line
+     *  Allowance Charge
+     *  Allowance Charge
+     *  Allowance Charge
+     *
+     * @return self
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AllowanceCharge $allowanceCharge
+     */
+    public function addToAllowanceCharge(\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AllowanceCharge $allowanceCharge)
+    {
+        $this->allowanceCharge[] = $allowanceCharge;
+        return $this;
+    }
+
+    /**
+     * isset allowanceCharge
+     *
+     * ASBIE
+     *  Billing Reference Line. Allowance Charge
+     *  An allowance or charge applicable to the transaction line.
+     *  0..n
+     *  Billing Reference Line
+     *  Allowance Charge
+     *  Allowance Charge
+     *  Allowance Charge
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetAllowanceCharge($index)
+    {
+        return isset($this->allowanceCharge[$index]);
+    }
+
+    /**
+     * unset allowanceCharge
+     *
+     * ASBIE
+     *  Billing Reference Line. Allowance Charge
+     *  An allowance or charge applicable to the transaction line.
+     *  0..n
+     *  Billing Reference Line
+     *  Allowance Charge
+     *  Allowance Charge
+     *  Allowance Charge
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetAllowanceCharge($index)
+    {
+        unset($this->allowanceCharge[$index]);
+    }
+
+    /**
+     * Gets as allowanceCharge
+     *
+     * ASBIE
+     *  Billing Reference Line. Allowance Charge
+     *  An allowance or charge applicable to the transaction line.
+     *  0..n
+     *  Billing Reference Line
+     *  Allowance Charge
+     *  Allowance Charge
+     *  Allowance Charge
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AllowanceCharge[]
+     */
+    public function getAllowanceCharge()
+    {
+        return $this->allowanceCharge;
+    }
+
+    /**
+     * Sets a new allowanceCharge
+     *
+     * ASBIE
+     *  Billing Reference Line. Allowance Charge
+     *  An allowance or charge applicable to the transaction line.
+     *  0..n
+     *  Billing Reference Line
+     *  Allowance Charge
+     *  Allowance Charge
+     *  Allowance Charge
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AllowanceCharge[] $allowanceCharge
+     * @return self
+     */
+    public function setAllowanceCharge(?array $allowanceCharge = null)
+    {
+        $this->allowanceCharge = $allowanceCharge;
+        return $this;
+    }
+}
+

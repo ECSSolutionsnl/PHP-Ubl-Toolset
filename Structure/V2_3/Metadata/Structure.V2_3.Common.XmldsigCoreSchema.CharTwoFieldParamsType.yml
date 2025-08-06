@@ -1,0 +1,12 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\XmldsigCoreSchema\CharTwoFieldParamsType:
+    properties:
+        m:
+            expose: true
+            access_type: public_method
+            serialized_name: M
+            xml_element:
+                namespace: 'http://www.w3.org/2009/xmldsig11#'
+            accessor:
+                getter: getM
+                setter: setM
+            type: int

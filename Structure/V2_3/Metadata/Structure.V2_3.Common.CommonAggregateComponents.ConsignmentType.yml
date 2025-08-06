@@ -1,0 +1,1217 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ConsignmentType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        carrierAssignedID:
+            expose: true
+            access_type: public_method
+            serialized_name: CarrierAssignedID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCarrierAssignedID
+                setter: setCarrierAssignedID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CarrierAssignedID
+        consigneeAssignedID:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsigneeAssignedID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsigneeAssignedID
+                setter: setConsigneeAssignedID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ConsigneeAssignedID
+        consignorAssignedID:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsignorAssignedID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsignorAssignedID
+                setter: setConsignorAssignedID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ConsignorAssignedID
+        freightForwarderAssignedID:
+            expose: true
+            access_type: public_method
+            serialized_name: FreightForwarderAssignedID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFreightForwarderAssignedID
+                setter: setFreightForwarderAssignedID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\FreightForwarderAssignedID
+        brokerAssignedID:
+            expose: true
+            access_type: public_method
+            serialized_name: BrokerAssignedID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBrokerAssignedID
+                setter: setBrokerAssignedID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\BrokerAssignedID
+        contractedCarrierAssignedID:
+            expose: true
+            access_type: public_method
+            serialized_name: ContractedCarrierAssignedID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getContractedCarrierAssignedID
+                setter: setContractedCarrierAssignedID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ContractedCarrierAssignedID
+        performingCarrierAssignedID:
+            expose: true
+            access_type: public_method
+            serialized_name: PerformingCarrierAssignedID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPerformingCarrierAssignedID
+                setter: setPerformingCarrierAssignedID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PerformingCarrierAssignedID
+        summaryDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: SummaryDescription
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSummaryDescription
+                setter: setSummaryDescription
+            xml_list:
+                inline: true
+                entry_name: SummaryDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\SummaryDescription>
+        totalInvoiceAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalInvoiceAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalInvoiceAmount
+                setter: setTotalInvoiceAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TotalInvoiceAmount
+        declaredCustomsValueAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: DeclaredCustomsValueAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDeclaredCustomsValueAmount
+                setter: setDeclaredCustomsValueAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\DeclaredCustomsValueAmount
+        tariffDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: TariffDescription
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTariffDescription
+                setter: setTariffDescription
+            xml_list:
+                inline: true
+                entry_name: TariffDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TariffDescription>
+        tariffCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TariffCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTariffCode
+                setter: setTariffCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TariffCode
+        insurancePremiumAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: InsurancePremiumAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInsurancePremiumAmount
+                setter: setInsurancePremiumAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\InsurancePremiumAmount
+        grossWeightMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: GrossWeightMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGrossWeightMeasure
+                setter: setGrossWeightMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\GrossWeightMeasure
+        netWeightMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: NetWeightMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNetWeightMeasure
+                setter: setNetWeightMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\NetWeightMeasure
+        netNetWeightMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: NetNetWeightMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNetNetWeightMeasure
+                setter: setNetNetWeightMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\NetNetWeightMeasure
+        chargeableWeightMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: ChargeableWeightMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getChargeableWeightMeasure
+                setter: setChargeableWeightMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ChargeableWeightMeasure
+        grossVolumeMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: GrossVolumeMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGrossVolumeMeasure
+                setter: setGrossVolumeMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\GrossVolumeMeasure
+        netVolumeMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: NetVolumeMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNetVolumeMeasure
+                setter: setNetVolumeMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\NetVolumeMeasure
+        loadingLengthMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: LoadingLengthMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLoadingLengthMeasure
+                setter: setLoadingLengthMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\LoadingLengthMeasure
+        remarks:
+            expose: true
+            access_type: public_method
+            serialized_name: Remarks
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRemarks
+                setter: setRemarks
+            xml_list:
+                inline: true
+                entry_name: Remarks
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Remarks>
+        hazardousRiskIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: HazardousRiskIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHazardousRiskIndicator
+                setter: setHazardousRiskIndicator
+            type: bool
+        animalFoodIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: AnimalFoodIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAnimalFoodIndicator
+                setter: setAnimalFoodIndicator
+            type: bool
+        humanFoodIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: HumanFoodIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHumanFoodIndicator
+                setter: setHumanFoodIndicator
+            type: bool
+        livestockIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: LivestockIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLivestockIndicator
+                setter: setLivestockIndicator
+            type: bool
+        bulkCargoIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: BulkCargoIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBulkCargoIndicator
+                setter: setBulkCargoIndicator
+            type: bool
+        containerizedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ContainerizedIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getContainerizedIndicator
+                setter: setContainerizedIndicator
+            type: bool
+        generalCargoIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: GeneralCargoIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGeneralCargoIndicator
+                setter: setGeneralCargoIndicator
+            type: bool
+        specialSecurityIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SpecialSecurityIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSpecialSecurityIndicator
+                setter: setSpecialSecurityIndicator
+            type: bool
+        thirdPartyPayerIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ThirdPartyPayerIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getThirdPartyPayerIndicator
+                setter: setThirdPartyPayerIndicator
+            type: bool
+        carrierServiceInstructions:
+            expose: true
+            access_type: public_method
+            serialized_name: CarrierServiceInstructions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCarrierServiceInstructions
+                setter: setCarrierServiceInstructions
+            xml_list:
+                inline: true
+                entry_name: CarrierServiceInstructions
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CarrierServiceInstructions>
+        customsClearanceServiceInstructions:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomsClearanceServiceInstructions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCustomsClearanceServiceInstructions
+                setter: setCustomsClearanceServiceInstructions
+            xml_list:
+                inline: true
+                entry_name: CustomsClearanceServiceInstructions
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CustomsClearanceServiceInstructions>
+        forwarderServiceInstructions:
+            expose: true
+            access_type: public_method
+            serialized_name: ForwarderServiceInstructions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getForwarderServiceInstructions
+                setter: setForwarderServiceInstructions
+            xml_list:
+                inline: true
+                entry_name: ForwarderServiceInstructions
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ForwarderServiceInstructions>
+        specialServiceInstructions:
+            expose: true
+            access_type: public_method
+            serialized_name: SpecialServiceInstructions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSpecialServiceInstructions
+                setter: setSpecialServiceInstructions
+            xml_list:
+                inline: true
+                entry_name: SpecialServiceInstructions
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\SpecialServiceInstructions>
+        sequenceID:
+            expose: true
+            access_type: public_method
+            serialized_name: SequenceID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSequenceID
+                setter: setSequenceID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\SequenceID
+        shippingPriorityLevelCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingPriorityLevelCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getShippingPriorityLevelCode
+                setter: setShippingPriorityLevelCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ShippingPriorityLevelCode
+        handlingCode:
+            expose: true
+            access_type: public_method
+            serialized_name: HandlingCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHandlingCode
+                setter: setHandlingCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\HandlingCode
+        handlingInstructions:
+            expose: true
+            access_type: public_method
+            serialized_name: HandlingInstructions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHandlingInstructions
+                setter: setHandlingInstructions
+            xml_list:
+                inline: true
+                entry_name: HandlingInstructions
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\HandlingInstructions>
+        information:
+            expose: true
+            access_type: public_method
+            serialized_name: Information
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInformation
+                setter: setInformation
+            xml_list:
+                inline: true
+                entry_name: Information
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Information>
+        totalGoodsItemQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalGoodsItemQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalGoodsItemQuantity
+                setter: setTotalGoodsItemQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TotalGoodsItemQuantity
+        totalTransportHandlingUnitQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalTransportHandlingUnitQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalTransportHandlingUnitQuantity
+                setter: setTotalTransportHandlingUnitQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TotalTransportHandlingUnitQuantity
+        insuranceValueAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: InsuranceValueAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInsuranceValueAmount
+                setter: setInsuranceValueAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\InsuranceValueAmount
+        declaredForCarriageValueAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: DeclaredForCarriageValueAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDeclaredForCarriageValueAmount
+                setter: setDeclaredForCarriageValueAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\DeclaredForCarriageValueAmount
+        declaredStatisticsValueAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: DeclaredStatisticsValueAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDeclaredStatisticsValueAmount
+                setter: setDeclaredStatisticsValueAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\DeclaredStatisticsValueAmount
+        freeOnBoardValueAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: FreeOnBoardValueAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFreeOnBoardValueAmount
+                setter: setFreeOnBoardValueAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\FreeOnBoardValueAmount
+        specialInstructions:
+            expose: true
+            access_type: public_method
+            serialized_name: SpecialInstructions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSpecialInstructions
+                setter: setSpecialInstructions
+            xml_list:
+                inline: true
+                entry_name: SpecialInstructions
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\SpecialInstructions>
+        splitConsignmentIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SplitConsignmentIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSplitConsignmentIndicator
+                setter: setSplitConsignmentIndicator
+            type: bool
+        deliveryInstructions:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryInstructions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDeliveryInstructions
+                setter: setDeliveryInstructions
+            xml_list:
+                inline: true
+                entry_name: DeliveryInstructions
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\DeliveryInstructions>
+        consignmentQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsignmentQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsignmentQuantity
+                setter: setConsignmentQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ConsignmentQuantity
+        consolidatableIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsolidatableIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsolidatableIndicator
+                setter: setConsolidatableIndicator
+            type: bool
+        haulageInstructions:
+            expose: true
+            access_type: public_method
+            serialized_name: HaulageInstructions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHaulageInstructions
+                setter: setHaulageInstructions
+            xml_list:
+                inline: true
+                entry_name: HaulageInstructions
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\HaulageInstructions>
+        loadingSequenceID:
+            expose: true
+            access_type: public_method
+            serialized_name: LoadingSequenceID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLoadingSequenceID
+                setter: setLoadingSequenceID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\LoadingSequenceID
+        childConsignmentQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: ChildConsignmentQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getChildConsignmentQuantity
+                setter: setChildConsignmentQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ChildConsignmentQuantity
+        totalPackagesQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalPackagesQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalPackagesQuantity
+                setter: setTotalPackagesQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TotalPackagesQuantity
+        consolidatedShipment:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsolidatedShipment
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getConsolidatedShipment
+                setter: setConsolidatedShipment
+            xml_list:
+                inline: true
+                entry_name: ConsolidatedShipment
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ConsolidatedShipment>
+        customsDeclaration:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomsDeclaration
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCustomsDeclaration
+                setter: setCustomsDeclaration
+            xml_list:
+                inline: true
+                entry_name: CustomsDeclaration
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\CustomsDeclaration>
+        requestedPickupTransportEvent:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestedPickupTransportEvent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRequestedPickupTransportEvent
+                setter: setRequestedPickupTransportEvent
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\RequestedPickupTransportEvent
+        requestedDeliveryTransportEvent:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestedDeliveryTransportEvent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRequestedDeliveryTransportEvent
+                setter: setRequestedDeliveryTransportEvent
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\RequestedDeliveryTransportEvent
+        plannedPickupTransportEvent:
+            expose: true
+            access_type: public_method
+            serialized_name: PlannedPickupTransportEvent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPlannedPickupTransportEvent
+                setter: setPlannedPickupTransportEvent
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\PlannedPickupTransportEvent
+        plannedDeliveryTransportEvent:
+            expose: true
+            access_type: public_method
+            serialized_name: PlannedDeliveryTransportEvent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPlannedDeliveryTransportEvent
+                setter: setPlannedDeliveryTransportEvent
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\PlannedDeliveryTransportEvent
+        actualPickupTransportEvent:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualPickupTransportEvent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getActualPickupTransportEvent
+                setter: setActualPickupTransportEvent
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ActualPickupTransportEvent
+        actualDeliveryTransportEvent:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualDeliveryTransportEvent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getActualDeliveryTransportEvent
+                setter: setActualDeliveryTransportEvent
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ActualDeliveryTransportEvent
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: Status
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            xml_list:
+                inline: true
+                entry_name: Status
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Status>
+        childConsignment:
+            expose: true
+            access_type: public_method
+            serialized_name: ChildConsignment
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getChildConsignment
+                setter: setChildConsignment
+            xml_list:
+                inline: true
+                entry_name: ChildConsignment
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ChildConsignment>
+        consigneeParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsigneeParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getConsigneeParty
+                setter: setConsigneeParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ConsigneeParty
+        exporterParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ExporterParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getExporterParty
+                setter: setExporterParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ExporterParty
+        consignorParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsignorParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getConsignorParty
+                setter: setConsignorParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ConsignorParty
+        importerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ImporterParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getImporterParty
+                setter: setImporterParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ImporterParty
+        carrierParty:
+            expose: true
+            access_type: public_method
+            serialized_name: CarrierParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCarrierParty
+                setter: setCarrierParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\CarrierParty
+        freightForwarderParty:
+            expose: true
+            access_type: public_method
+            serialized_name: FreightForwarderParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFreightForwarderParty
+                setter: setFreightForwarderParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\FreightForwarderParty
+        notifyParty:
+            expose: true
+            access_type: public_method
+            serialized_name: NotifyParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getNotifyParty
+                setter: setNotifyParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\NotifyParty
+        originalDespatchParty:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalDespatchParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOriginalDespatchParty
+                setter: setOriginalDespatchParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\OriginalDespatchParty
+        finalDeliveryParty:
+            expose: true
+            access_type: public_method
+            serialized_name: FinalDeliveryParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFinalDeliveryParty
+                setter: setFinalDeliveryParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\FinalDeliveryParty
+        performingCarrierParty:
+            expose: true
+            access_type: public_method
+            serialized_name: PerformingCarrierParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPerformingCarrierParty
+                setter: setPerformingCarrierParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\PerformingCarrierParty
+        substituteCarrierParty:
+            expose: true
+            access_type: public_method
+            serialized_name: SubstituteCarrierParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSubstituteCarrierParty
+                setter: setSubstituteCarrierParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\SubstituteCarrierParty
+        logisticsOperatorParty:
+            expose: true
+            access_type: public_method
+            serialized_name: LogisticsOperatorParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLogisticsOperatorParty
+                setter: setLogisticsOperatorParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\LogisticsOperatorParty
+        transportAdvisorParty:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportAdvisorParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTransportAdvisorParty
+                setter: setTransportAdvisorParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TransportAdvisorParty
+        hazardousItemNotificationParty:
+            expose: true
+            access_type: public_method
+            serialized_name: HazardousItemNotificationParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getHazardousItemNotificationParty
+                setter: setHazardousItemNotificationParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\HazardousItemNotificationParty
+        insuranceParty:
+            expose: true
+            access_type: public_method
+            serialized_name: InsuranceParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getInsuranceParty
+                setter: setInsuranceParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\InsuranceParty
+        mortgageHolderParty:
+            expose: true
+            access_type: public_method
+            serialized_name: MortgageHolderParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMortgageHolderParty
+                setter: setMortgageHolderParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\MortgageHolderParty
+        billOfLadingHolderParty:
+            expose: true
+            access_type: public_method
+            serialized_name: BillOfLadingHolderParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getBillOfLadingHolderParty
+                setter: setBillOfLadingHolderParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\BillOfLadingHolderParty
+        originalDepartureCountry:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalDepartureCountry
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOriginalDepartureCountry
+                setter: setOriginalDepartureCountry
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\OriginalDepartureCountry
+        finalDestinationCountry:
+            expose: true
+            access_type: public_method
+            serialized_name: FinalDestinationCountry
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFinalDestinationCountry
+                setter: setFinalDestinationCountry
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\FinalDestinationCountry
+        transitCountry:
+            expose: true
+            access_type: public_method
+            serialized_name: TransitCountry
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTransitCountry
+                setter: setTransitCountry
+            xml_list:
+                inline: true
+                entry_name: TransitCountry
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TransitCountry>
+        transportContract:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportContract
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTransportContract
+                setter: setTransportContract
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TransportContract
+        transportEvent:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportEvent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTransportEvent
+                setter: setTransportEvent
+            xml_list:
+                inline: true
+                entry_name: TransportEvent
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TransportEvent>
+        originalDespatchTransportationService:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalDespatchTransportationService
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOriginalDespatchTransportationService
+                setter: setOriginalDespatchTransportationService
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\OriginalDespatchTransportationService
+        finalDeliveryTransportationService:
+            expose: true
+            access_type: public_method
+            serialized_name: FinalDeliveryTransportationService
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFinalDeliveryTransportationService
+                setter: setFinalDeliveryTransportationService
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\FinalDeliveryTransportationService
+        deliveryTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryTerms
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryTerms
+                setter: setDeliveryTerms
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\DeliveryTerms
+        paymentTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentTerms
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPaymentTerms
+                setter: setPaymentTerms
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\PaymentTerms
+        collectPaymentTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: CollectPaymentTerms
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCollectPaymentTerms
+                setter: setCollectPaymentTerms
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\CollectPaymentTerms
+        disbursementPaymentTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: DisbursementPaymentTerms
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDisbursementPaymentTerms
+                setter: setDisbursementPaymentTerms
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\DisbursementPaymentTerms
+        prepaidPaymentTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: PrepaidPaymentTerms
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPrepaidPaymentTerms
+                setter: setPrepaidPaymentTerms
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\PrepaidPaymentTerms
+        freightAllowanceCharge:
+            expose: true
+            access_type: public_method
+            serialized_name: FreightAllowanceCharge
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFreightAllowanceCharge
+                setter: setFreightAllowanceCharge
+            xml_list:
+                inline: true
+                entry_name: FreightAllowanceCharge
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\FreightAllowanceCharge>
+        extraAllowanceCharge:
+            expose: true
+            access_type: public_method
+            serialized_name: ExtraAllowanceCharge
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getExtraAllowanceCharge
+                setter: setExtraAllowanceCharge
+            xml_list:
+                inline: true
+                entry_name: ExtraAllowanceCharge
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ExtraAllowanceCharge>
+        mainCarriageShipmentStage:
+            expose: true
+            access_type: public_method
+            serialized_name: MainCarriageShipmentStage
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMainCarriageShipmentStage
+                setter: setMainCarriageShipmentStage
+            xml_list:
+                inline: true
+                entry_name: MainCarriageShipmentStage
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\MainCarriageShipmentStage>
+        preCarriageShipmentStage:
+            expose: true
+            access_type: public_method
+            serialized_name: PreCarriageShipmentStage
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPreCarriageShipmentStage
+                setter: setPreCarriageShipmentStage
+            xml_list:
+                inline: true
+                entry_name: PreCarriageShipmentStage
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\PreCarriageShipmentStage>
+        onCarriageShipmentStage:
+            expose: true
+            access_type: public_method
+            serialized_name: OnCarriageShipmentStage
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOnCarriageShipmentStage
+                setter: setOnCarriageShipmentStage
+            xml_list:
+                inline: true
+                entry_name: OnCarriageShipmentStage
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\OnCarriageShipmentStage>
+        transportHandlingUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportHandlingUnit
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTransportHandlingUnit
+                setter: setTransportHandlingUnit
+            xml_list:
+                inline: true
+                entry_name: TransportHandlingUnit
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TransportHandlingUnit>
+        firstArrivalPortLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: FirstArrivalPortLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFirstArrivalPortLocation
+                setter: setFirstArrivalPortLocation
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\FirstArrivalPortLocation
+        lastExitPortLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: LastExitPortLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLastExitPortLocation
+                setter: setLastExitPortLocation
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\LastExitPortLocation
+        officeOfEntryLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: OfficeOfEntryLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOfficeOfEntryLocation
+                setter: setOfficeOfEntryLocation
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\OfficeOfEntryLocation
+        officeOfSubSequentiallyEntryLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: OfficeOfSubSequentiallyEntryLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOfficeOfSubSequentiallyEntryLocation
+                setter: setOfficeOfSubSequentiallyEntryLocation
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\OfficeOfSubSequentiallyEntryLocation
+        officeOfExitLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: OfficeOfExitLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOfficeOfExitLocation
+                setter: setOfficeOfExitLocation
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\OfficeOfExitLocation
+        officeOfDepartureLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: OfficeOfDepartureLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOfficeOfDepartureLocation
+                setter: setOfficeOfDepartureLocation
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\OfficeOfDepartureLocation
+        officeOfDestinationLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: OfficeOfDestinationLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOfficeOfDestinationLocation
+                setter: setOfficeOfDestinationLocation
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\OfficeOfDestinationLocation
+        officeOfImportLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: OfficeOfImportLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOfficeOfImportLocation
+                setter: setOfficeOfImportLocation
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\OfficeOfImportLocation
+        officeOfExportLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: OfficeOfExportLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOfficeOfExportLocation
+                setter: setOfficeOfExportLocation
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\OfficeOfExportLocation
+        documentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentReference
+                setter: setDocumentReference
+            xml_list:
+                inline: true
+                entry_name: DocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\DocumentReference>

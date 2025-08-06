@@ -1,0 +1,21 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\XmldsigCoreSchema\ECValidationDataType:
+    properties:
+        hashAlgorithm:
+            expose: true
+            access_type: public_method
+            serialized_name: hashAlgorithm
+            accessor:
+                getter: getHashAlgorithm
+                setter: setHashAlgorithm
+            xml_attribute: true
+            type: string
+        seed:
+            expose: true
+            access_type: public_method
+            serialized_name: seed
+            xml_element:
+                namespace: 'http://www.w3.org/2009/xmldsig11#'
+            accessor:
+                getter: getSeed
+                setter: setSeed
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded

@@ -1,0 +1,71 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ConditionType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        attributeID:
+            expose: true
+            access_type: public_method
+            serialized_name: AttributeID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAttributeID
+                setter: setAttributeID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\AttributeID
+        measure:
+            expose: true
+            access_type: public_method
+            serialized_name: Measure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMeasure
+                setter: setMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Measure
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Description>
+        minimumMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMinimumMeasure
+                setter: setMinimumMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MinimumMeasure
+        maximumMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumMeasure
+                setter: setMaximumMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MaximumMeasure

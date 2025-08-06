@@ -1,0 +1,42 @@
+ECSSolutions\UblToolset\Structure\V2_1\Common\CommonAggregateComponents\EventTacticType:
+    properties:
+        comment:
+            expose: true
+            access_type: public_method
+            serialized_name: Comment
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getComment
+                setter: setComment
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonBasicComponents\Comment
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonBasicComponents\Quantity
+        eventTacticEnumeration:
+            expose: true
+            access_type: public_method
+            serialized_name: EventTacticEnumeration
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getEventTacticEnumeration
+                setter: setEventTacticEnumeration
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonAggregateComponents\EventTacticEnumeration
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: Period
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonAggregateComponents\Period

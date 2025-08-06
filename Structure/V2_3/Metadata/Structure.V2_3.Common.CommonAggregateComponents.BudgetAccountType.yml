@@ -1,0 +1,47 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\BudgetAccountType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        budgetYearNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: BudgetYearNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBudgetYearNumeric
+                setter: setBudgetYearNumeric
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\BudgetYearNumeric
+        requiredClassificationScheme:
+            expose: true
+            access_type: public_method
+            serialized_name: RequiredClassificationScheme
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRequiredClassificationScheme
+                setter: setRequiredClassificationScheme
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\RequiredClassificationScheme

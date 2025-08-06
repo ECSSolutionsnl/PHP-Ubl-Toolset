@@ -1,0 +1,117 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\BallastWaterTransactionType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        tankID:
+            expose: true
+            access_type: public_method
+            serialized_name: TankID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTankID
+                setter: setTankID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TankID
+        tankTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TankTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTankTypeCode
+                setter: setTankTypeCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TankTypeCode
+        exchangeMethodCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ExchangeMethodCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExchangeMethodCode
+                setter: setExchangeMethodCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ExchangeMethodCode
+        exchangedPercent:
+            expose: true
+            access_type: public_method
+            serialized_name: ExchangedPercent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExchangedPercent
+                setter: setExchangedPercent
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ExchangedPercent
+        volumeMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: VolumeMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getVolumeMeasure
+                setter: setVolumeMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\VolumeMeasure
+        seaHeightMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: SeaHeightMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSeaHeightMeasure
+                setter: setSeaHeightMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\SeaHeightMeasure
+        salinityMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: SalinityMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSalinityMeasure
+                setter: setSalinityMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\SalinityMeasure
+        transactionDate:
+            expose: true
+            access_type: public_method
+            serialized_name: TransactionDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransactionDate
+                setter: setTransactionDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: Location
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Location
+        ballastWaterTemperature:
+            expose: true
+            access_type: public_method
+            serialized_name: BallastWaterTemperature
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getBallastWaterTemperature
+                setter: setBallastWaterTemperature
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\BallastWaterTemperature

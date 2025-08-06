@@ -1,0 +1,105 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\MaritimeWasteType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Description>
+        wasteTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: WasteTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getWasteTypeCode
+                setter: setWasteTypeCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\WasteTypeCode
+        toBeDeliveredMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: ToBeDeliveredMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getToBeDeliveredMeasure
+                setter: setToBeDeliveredMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ToBeDeliveredMeasure
+        retainedOnBoardMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: RetainedOnBoardMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRetainedOnBoardMeasure
+                setter: setRetainedOnBoardMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\RetainedOnBoardMeasure
+        maxDedicatedStorageCapacityMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: MaxDedicatedStorageCapacityMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaxDedicatedStorageCapacityMeasure
+                setter: setMaxDedicatedStorageCapacityMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MaxDedicatedStorageCapacityMeasure
+        estimatedGeneratedUntilNextPortMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedGeneratedUntilNextPortMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEstimatedGeneratedUntilNextPortMeasure
+                setter: setEstimatedGeneratedUntilNextPortMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\EstimatedGeneratedUntilNextPortMeasure
+        remainingWasteDeliveryPortLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: RemainingWasteDeliveryPortLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRemainingWasteDeliveryPortLocation
+                setter: setRemainingWasteDeliveryPortLocation
+            xml_list:
+                inline: true
+                entry_name: RemainingWasteDeliveryPortLocation
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\RemainingWasteDeliveryPortLocation>

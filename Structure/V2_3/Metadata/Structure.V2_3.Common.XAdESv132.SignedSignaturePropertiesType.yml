@@ -1,0 +1,101 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\XAdESv132\SignedSignaturePropertiesType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: Id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        signingTime:
+            expose: true
+            access_type: public_method
+            serialized_name: SigningTime
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getSigningTime
+                setter: setSigningTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        signingCertificate:
+            expose: true
+            access_type: public_method
+            serialized_name: SigningCertificate
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getSigningCertificate
+                setter: setSigningCertificate
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\XAdESv132\CertIDType>
+            xml_list:
+                inline: false
+                entry_name: Cert
+                skip_when_empty: true
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+        signingCertificateV2:
+            expose: true
+            access_type: public_method
+            serialized_name: SigningCertificateV2
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getSigningCertificateV2
+                setter: setSigningCertificateV2
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\XAdESv132\CertIDTypeV2Type>
+            xml_list:
+                inline: false
+                entry_name: Cert
+                skip_when_empty: true
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+        signaturePolicyIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: SignaturePolicyIdentifier
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getSignaturePolicyIdentifier
+                setter: setSignaturePolicyIdentifier
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\XAdESv132\SignaturePolicyIdentifier
+        signatureProductionPlace:
+            expose: true
+            access_type: public_method
+            serialized_name: SignatureProductionPlace
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getSignatureProductionPlace
+                setter: setSignatureProductionPlace
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\XAdESv132\SignatureProductionPlace
+        signatureProductionPlaceV2:
+            expose: true
+            access_type: public_method
+            serialized_name: SignatureProductionPlaceV2
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getSignatureProductionPlaceV2
+                setter: setSignatureProductionPlaceV2
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\XAdESv132\SignatureProductionPlaceV2
+        signerRole:
+            expose: true
+            access_type: public_method
+            serialized_name: SignerRole
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getSignerRole
+                setter: setSignerRole
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\XAdESv132\SignerRole
+        signerRoleV2:
+            expose: true
+            access_type: public_method
+            serialized_name: SignerRoleV2
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getSignerRoleV2
+                setter: setSignerRoleV2
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\XAdESv132\SignerRoleV2

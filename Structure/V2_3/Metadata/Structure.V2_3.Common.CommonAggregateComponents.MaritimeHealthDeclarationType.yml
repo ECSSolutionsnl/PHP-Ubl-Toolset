@@ -1,0 +1,261 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\MaritimeHealthDeclarationType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        infectiousDiseaseCaseOnBoardIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: InfectiousDiseaseCaseOnBoardIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInfectiousDiseaseCaseOnBoardIndicator
+                setter: setInfectiousDiseaseCaseOnBoardIndicator
+            type: bool
+        moreIllThanExpectedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: MoreIllThanExpectedIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMoreIllThanExpectedIndicator
+                setter: setMoreIllThanExpectedIndicator
+            type: bool
+        medicalPractitionerConsultedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: MedicalPractitionerConsultedIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMedicalPractitionerConsultedIndicator
+                setter: setMedicalPractitionerConsultedIndicator
+            type: bool
+        stowawaysFoundOnBoardIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: StowawaysFoundOnBoardIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getStowawaysFoundOnBoardIndicator
+                setter: setStowawaysFoundOnBoardIndicator
+            type: bool
+        sickAnimalOnBoardIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SickAnimalOnBoardIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSickAnimalOnBoardIndicator
+                setter: setSickAnimalOnBoardIndicator
+            type: bool
+        fumigatedCargoTransportIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: FumigatedCargoTransportIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFumigatedCargoTransportIndicator
+                setter: setFumigatedCargoTransportIndicator
+            type: bool
+        sanitaryMeasuresAppliedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SanitaryMeasuresAppliedIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSanitaryMeasuresAppliedIndicator
+                setter: setSanitaryMeasuresAppliedIndicator
+            type: bool
+        validSanitationCertificateOnBoardIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidSanitationCertificateOnBoardIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValidSanitationCertificateOnBoardIndicator
+                setter: setValidSanitationCertificateOnBoardIndicator
+            type: bool
+        reinspectionRequiredIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ReinspectionRequiredIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReinspectionRequiredIndicator
+                setter: setReinspectionRequiredIndicator
+            type: bool
+        totalDeadPersonQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalDeadPersonQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalDeadPersonQuantity
+                setter: setTotalDeadPersonQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TotalDeadPersonQuantity
+        totalIllPersonQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalIllPersonQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalIllPersonQuantity
+                setter: setTotalIllPersonQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TotalIllPersonQuantity
+        sickAnimalDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: SickAnimalDescription
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSickAnimalDescription
+                setter: setSickAnimalDescription
+            xml_list:
+                inline: true
+                entry_name: SickAnimalDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\SickAnimalDescription>
+        stowawayDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: StowawayDescription
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getStowawayDescription
+                setter: setStowawayDescription
+            xml_list:
+                inline: true
+                entry_name: StowawayDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\StowawayDescription>
+        lastDrinkingWaterAnalysisDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastDrinkingWaterAnalysisDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLastDrinkingWaterAnalysisDate
+                setter: setLastDrinkingWaterAnalysisDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        wHOAffectedAreaVisit:
+            expose: true
+            access_type: public_method
+            serialized_name: WHOAffectedAreaVisit
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getWHOAffectedAreaVisit
+                setter: setWHOAffectedAreaVisit
+            xml_list:
+                inline: true
+                entry_name: WHOAffectedAreaVisit
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\WHOAffectedAreaVisit>
+        personnelHealthIncident:
+            expose: true
+            access_type: public_method
+            serialized_name: PersonnelHealthIncident
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPersonnelHealthIncident
+                setter: setPersonnelHealthIncident
+            xml_list:
+                inline: true
+                entry_name: PersonnelHealthIncident
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\PersonnelHealthIncident>
+        sanitaryMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: SanitaryMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSanitaryMeasure
+                setter: setSanitaryMeasure
+            xml_list:
+                inline: true
+                entry_name: SanitaryMeasure
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\SanitaryMeasure>
+        placeOfReportLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: PlaceOfReportLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPlaceOfReportLocation
+                setter: setPlaceOfReportLocation
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\PlaceOfReportLocation
+        medicalCertificate:
+            expose: true
+            access_type: public_method
+            serialized_name: MedicalCertificate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMedicalCertificate
+                setter: setMedicalCertificate
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\MedicalCertificate
+        shipSanitationControlCertificate:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipSanitationControlCertificate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getShipSanitationControlCertificate
+                setter: setShipSanitationControlCertificate
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ShipSanitationControlCertificate
+        shipSanitationControlExemptionDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipSanitationControlExemptionDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getShipSanitationControlExemptionDocumentReference
+                setter: setShipSanitationControlExemptionDocumentReference
+            xml_list:
+                inline: true
+                entry_name: ShipSanitationControlExemptionDocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ShipSanitationControlExemptionDocumentReference>

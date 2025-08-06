@@ -1,0 +1,131 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\VerifiedGrossMassType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        weighingDate:
+            expose: true
+            access_type: public_method
+            serialized_name: WeighingDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getWeighingDate
+                setter: setWeighingDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        weighingTime:
+            expose: true
+            access_type: public_method
+            serialized_name: WeighingTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getWeighingTime
+                setter: setWeighingTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        weighingMethodCode:
+            expose: true
+            access_type: public_method
+            serialized_name: WeighingMethodCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getWeighingMethodCode
+                setter: setWeighingMethodCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\WeighingMethodCode
+        weighingDeviceID:
+            expose: true
+            access_type: public_method
+            serialized_name: WeighingDeviceID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getWeighingDeviceID
+                setter: setWeighingDeviceID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\WeighingDeviceID
+        weighingDeviceType:
+            expose: true
+            access_type: public_method
+            serialized_name: WeighingDeviceType
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getWeighingDeviceType
+                setter: setWeighingDeviceType
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\WeighingDeviceType
+        grossMassMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: GrossMassMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGrossMassMeasure
+                setter: setGrossMassMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\GrossMassMeasure
+        weighingParty:
+            expose: true
+            access_type: public_method
+            serialized_name: WeighingParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getWeighingParty
+                setter: setWeighingParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\WeighingParty
+        shipperParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipperParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getShipperParty
+                setter: setShipperParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ShipperParty
+        responsibleParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponsibleParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getResponsibleParty
+                setter: setResponsibleParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ResponsibleParty
+        documentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentReference
+                setter: setDocumentReference
+            xml_list:
+                inline: true
+                entry_name: DocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\DocumentReference>

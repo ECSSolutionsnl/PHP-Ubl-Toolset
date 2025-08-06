@@ -1,0 +1,107 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ParticipantPartyType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        initiatingPartyIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: InitiatingPartyIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInitiatingPartyIndicator
+                setter: setInitiatingPartyIndicator
+            type: bool
+        privatePartyIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: PrivatePartyIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPrivatePartyIndicator
+                setter: setPrivatePartyIndicator
+            type: bool
+        publicPartyIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: PublicPartyIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPublicPartyIndicator
+                setter: setPublicPartyIndicator
+            type: bool
+        serviceProviderPartyIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceProviderPartyIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getServiceProviderPartyIndicator
+                setter: setServiceProviderPartyIndicator
+            type: bool
+        party:
+            expose: true
+            access_type: public_method
+            serialized_name: Party
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getParty
+                setter: setParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Party
+        legalContact:
+            expose: true
+            access_type: public_method
+            serialized_name: LegalContact
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLegalContact
+                setter: setLegalContact
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\LegalContact
+        technicalContact:
+            expose: true
+            access_type: public_method
+            serialized_name: TechnicalContact
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTechnicalContact
+                setter: setTechnicalContact
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TechnicalContact
+        supportContact:
+            expose: true
+            access_type: public_method
+            serialized_name: SupportContact
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSupportContact
+                setter: setSupportContact
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\SupportContact
+        commercialContact:
+            expose: true
+            access_type: public_method
+            serialized_name: CommercialContact
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCommercialContact
+                setter: setCommercialContact
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\CommercialContact

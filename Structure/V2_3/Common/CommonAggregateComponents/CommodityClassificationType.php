@@ -1,0 +1,323 @@
+<?php
+
+namespace ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents;
+
+/**
+ * Class representing CommodityClassificationType
+ *
+ * ABIE
+ *  Commodity Classification. Details
+ *  A class to describe the classification of a commodity.
+ *  Commodity Classification
+ * XSD Type: CommodityClassificationType
+ */
+class CommodityClassificationType
+{
+    /**
+     * A container for extensions foreign to the document.
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension[] $uBLExtensions
+     */
+    private $uBLExtensions = null;
+
+    /**
+     * BBIE
+     *  Commodity Classification. Nature Code. Code
+     *  A code defined by a specific maintenance agency signifying the high-level nature of the commodity.
+     *  0..1
+     *  Commodity Classification
+     *  Nature Code
+     *  Code
+     *  Code. Type
+     *  wooden products
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\NatureCode $natureCode
+     */
+    private $natureCode = null;
+
+    /**
+     * BBIE
+     *  Commodity Classification. Cargo Type Code. Code
+     *  A mutually agreed code signifying the type of cargo for purposes of commodity classification.
+     *  0..1
+     *  Commodity Classification
+     *  Cargo Type Code
+     *  Code
+     *  Code. Type
+     *  Refrigerated
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CargoTypeCode $cargoTypeCode
+     */
+    private $cargoTypeCode = null;
+
+    /**
+     * BBIE
+     *  Commodity Classification. Commodity Code. Code
+     *  The harmonized international commodity code for cross border and regulatory (customs and trade statistics) purposes.
+     *  0..1
+     *  Commodity Classification
+     *  Commodity Code
+     *  Code
+     *  Code. Type
+     *  Harmonized Code
+     *  1102222883
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CommodityCode $commodityCode
+     */
+    private $commodityCode = null;
+
+    /**
+     * BBIE
+     *  Commodity Classification. Item Classification Code. Code
+     *  A code signifying the trade classification of the commodity.
+     *  0..1
+     *  Commodity Classification
+     *  Item Classification Code
+     *  Code
+     *  Code. Type
+     *  UN/SPSC Code
+     *  3440234
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ItemClassificationCode $itemClassificationCode
+     */
+    private $itemClassificationCode = null;
+
+    /**
+     * Adds as uBLExtension
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @return self
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension $uBLExtension
+     */
+    public function addToUBLExtensions(\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension $uBLExtension)
+    {
+        $this->uBLExtensions[] = $uBLExtension;
+        return $this;
+    }
+
+    /**
+     * isset uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetUBLExtensions($index)
+    {
+        return isset($this->uBLExtensions[$index]);
+    }
+
+    /**
+     * unset uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetUBLExtensions($index)
+    {
+        unset($this->uBLExtensions[$index]);
+    }
+
+    /**
+     * Gets as uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension[]
+     */
+    public function getUBLExtensions()
+    {
+        return $this->uBLExtensions;
+    }
+
+    /**
+     * Sets a new uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension[] $uBLExtensions
+     * @return self
+     */
+    public function setUBLExtensions(?array $uBLExtensions = null)
+    {
+        $this->uBLExtensions = $uBLExtensions;
+        return $this;
+    }
+
+    /**
+     * Gets as natureCode
+     *
+     * BBIE
+     *  Commodity Classification. Nature Code. Code
+     *  A code defined by a specific maintenance agency signifying the high-level nature of the commodity.
+     *  0..1
+     *  Commodity Classification
+     *  Nature Code
+     *  Code
+     *  Code. Type
+     *  wooden products
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\NatureCode
+     */
+    public function getNatureCode()
+    {
+        return $this->natureCode;
+    }
+
+    /**
+     * Sets a new natureCode
+     *
+     * BBIE
+     *  Commodity Classification. Nature Code. Code
+     *  A code defined by a specific maintenance agency signifying the high-level nature of the commodity.
+     *  0..1
+     *  Commodity Classification
+     *  Nature Code
+     *  Code
+     *  Code. Type
+     *  wooden products
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\NatureCode $natureCode
+     * @return self
+     */
+    public function setNatureCode(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\NatureCode $natureCode = null)
+    {
+        $this->natureCode = $natureCode;
+        return $this;
+    }
+
+    /**
+     * Gets as cargoTypeCode
+     *
+     * BBIE
+     *  Commodity Classification. Cargo Type Code. Code
+     *  A mutually agreed code signifying the type of cargo for purposes of commodity classification.
+     *  0..1
+     *  Commodity Classification
+     *  Cargo Type Code
+     *  Code
+     *  Code. Type
+     *  Refrigerated
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CargoTypeCode
+     */
+    public function getCargoTypeCode()
+    {
+        return $this->cargoTypeCode;
+    }
+
+    /**
+     * Sets a new cargoTypeCode
+     *
+     * BBIE
+     *  Commodity Classification. Cargo Type Code. Code
+     *  A mutually agreed code signifying the type of cargo for purposes of commodity classification.
+     *  0..1
+     *  Commodity Classification
+     *  Cargo Type Code
+     *  Code
+     *  Code. Type
+     *  Refrigerated
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CargoTypeCode $cargoTypeCode
+     * @return self
+     */
+    public function setCargoTypeCode(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CargoTypeCode $cargoTypeCode = null)
+    {
+        $this->cargoTypeCode = $cargoTypeCode;
+        return $this;
+    }
+
+    /**
+     * Gets as commodityCode
+     *
+     * BBIE
+     *  Commodity Classification. Commodity Code. Code
+     *  The harmonized international commodity code for cross border and regulatory (customs and trade statistics) purposes.
+     *  0..1
+     *  Commodity Classification
+     *  Commodity Code
+     *  Code
+     *  Code. Type
+     *  Harmonized Code
+     *  1102222883
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CommodityCode
+     */
+    public function getCommodityCode()
+    {
+        return $this->commodityCode;
+    }
+
+    /**
+     * Sets a new commodityCode
+     *
+     * BBIE
+     *  Commodity Classification. Commodity Code. Code
+     *  The harmonized international commodity code for cross border and regulatory (customs and trade statistics) purposes.
+     *  0..1
+     *  Commodity Classification
+     *  Commodity Code
+     *  Code
+     *  Code. Type
+     *  Harmonized Code
+     *  1102222883
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CommodityCode $commodityCode
+     * @return self
+     */
+    public function setCommodityCode(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CommodityCode $commodityCode = null)
+    {
+        $this->commodityCode = $commodityCode;
+        return $this;
+    }
+
+    /**
+     * Gets as itemClassificationCode
+     *
+     * BBIE
+     *  Commodity Classification. Item Classification Code. Code
+     *  A code signifying the trade classification of the commodity.
+     *  0..1
+     *  Commodity Classification
+     *  Item Classification Code
+     *  Code
+     *  Code. Type
+     *  UN/SPSC Code
+     *  3440234
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ItemClassificationCode
+     */
+    public function getItemClassificationCode()
+    {
+        return $this->itemClassificationCode;
+    }
+
+    /**
+     * Sets a new itemClassificationCode
+     *
+     * BBIE
+     *  Commodity Classification. Item Classification Code. Code
+     *  A code signifying the trade classification of the commodity.
+     *  0..1
+     *  Commodity Classification
+     *  Item Classification Code
+     *  Code
+     *  Code. Type
+     *  UN/SPSC Code
+     *  3440234
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ItemClassificationCode $itemClassificationCode
+     * @return self
+     */
+    public function setItemClassificationCode(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ItemClassificationCode $itemClassificationCode = null)
+    {
+        $this->itemClassificationCode = $itemClassificationCode;
+        return $this;
+    }
+}
+

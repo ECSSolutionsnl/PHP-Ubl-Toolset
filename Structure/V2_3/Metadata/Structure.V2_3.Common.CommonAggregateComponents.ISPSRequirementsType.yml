@@ -1,0 +1,177 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ISPSRequirementsType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        validISSCIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidISSCIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValidISSCIndicator
+                setter: setValidISSCIndicator
+            type: bool
+        iSSCAbsenceReason:
+            expose: true
+            access_type: public_method
+            serialized_name: ISSCAbsenceReason
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getISSCAbsenceReason
+                setter: setISSCAbsenceReason
+            xml_list:
+                inline: true
+                entry_name: ISSCAbsenceReason
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ISSCAbsenceReason>
+        iSSCExpiryDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ISSCExpiryDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getISSCExpiryDate
+                setter: setISSCExpiryDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        sSPOnBoardIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SSPOnBoardIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSSPOnBoardIndicator
+                setter: setSSPOnBoardIndicator
+            type: bool
+        sSPSecurityMeasuresAppliedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SSPSecurityMeasuresAppliedIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSSPSecurityMeasuresAppliedIndicator
+                setter: setSSPSecurityMeasuresAppliedIndicator
+            type: bool
+        currentOperatingSecurityLevelCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrentOperatingSecurityLevelCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCurrentOperatingSecurityLevelCode
+                setter: setCurrentOperatingSecurityLevelCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CurrentOperatingSecurityLevelCode
+        additionalMattersDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalMattersDescription
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAdditionalMattersDescription
+                setter: setAdditionalMattersDescription
+            xml_list:
+                inline: true
+                entry_name: AdditionalMattersDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\AdditionalMattersDescription>
+        additionalSecurityMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalSecurityMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAdditionalSecurityMeasure
+                setter: setAdditionalSecurityMeasure
+            xml_list:
+                inline: true
+                entry_name: AdditionalSecurityMeasure
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AdditionalSecurityMeasure>
+        portCallRecord:
+            expose: true
+            access_type: public_method
+            serialized_name: PortCallRecord
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPortCallRecord
+                setter: setPortCallRecord
+            xml_list:
+                inline: true
+                entry_name: PortCallRecord
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\PortCallRecord>
+        shipToShipActivityRecord:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipToShipActivityRecord
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getShipToShipActivityRecord
+                setter: setShipToShipActivityRecord
+            xml_list:
+                inline: true
+                entry_name: ShipToShipActivityRecord
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ShipToShipActivityRecord>
+        reportLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: ReportLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getReportLocation
+                setter: setReportLocation
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ReportLocation
+        iSSCIssuerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ISSCIssuerParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getISSCIssuerParty
+                setter: setISSCIssuerParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ISSCIssuerParty
+        securityOfficerPerson:
+            expose: true
+            access_type: public_method
+            serialized_name: SecurityOfficerPerson
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSecurityOfficerPerson
+                setter: setSecurityOfficerPerson
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\SecurityOfficerPerson

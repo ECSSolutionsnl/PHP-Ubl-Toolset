@@ -1,0 +1,151 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\PortCallType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        plannedOperationsDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: PlannedOperationsDescription
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPlannedOperationsDescription
+                setter: setPlannedOperationsDescription
+            xml_list:
+                inline: true
+                entry_name: PlannedOperationsDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PlannedOperationsDescription>
+        plannedWorksDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: PlannedWorksDescription
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPlannedWorksDescription
+                setter: setPlannedWorksDescription
+            xml_list:
+                inline: true
+                entry_name: PlannedWorksDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PlannedWorksDescription>
+        plannedInspectionsDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: PlannedInspectionsDescription
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPlannedInspectionsDescription
+                setter: setPlannedInspectionsDescription
+            xml_list:
+                inline: true
+                entry_name: PlannedInspectionsDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PlannedInspectionsDescription>
+        expectedAnchorageIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpectedAnchorageIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExpectedAnchorageIndicator
+                setter: setExpectedAnchorageIndicator
+            type: bool
+        positionInPortID:
+            expose: true
+            access_type: public_method
+            serialized_name: PositionInPortID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPositionInPortID
+                setter: setPositionInPortID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PositionInPortID
+        cargoAndBallastTankConditionDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: CargoAndBallastTankConditionDescription
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCargoAndBallastTankConditionDescription
+                setter: setCargoAndBallastTankConditionDescription
+            xml_list:
+                inline: true
+                entry_name: CargoAndBallastTankConditionDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CargoAndBallastTankConditionDescription>
+        shipRequirement:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipRequirement
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getShipRequirement
+                setter: setShipRequirement
+            xml_list:
+                inline: true
+                entry_name: ShipRequirement
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ShipRequirement>
+        primaryPortCallPurpose:
+            expose: true
+            access_type: public_method
+            serialized_name: PrimaryPortCallPurpose
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPrimaryPortCallPurpose
+                setter: setPrimaryPortCallPurpose
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\PrimaryPortCallPurpose
+        additionalPortCallPurpose:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalPortCallPurpose
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAdditionalPortCallPurpose
+                setter: setAdditionalPortCallPurpose
+            xml_list:
+                inline: true
+                entry_name: AdditionalPortCallPurpose
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AdditionalPortCallPurpose>
+        requestedArrivalEvent:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestedArrivalEvent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRequestedArrivalEvent
+                setter: setRequestedArrivalEvent
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\RequestedArrivalEvent

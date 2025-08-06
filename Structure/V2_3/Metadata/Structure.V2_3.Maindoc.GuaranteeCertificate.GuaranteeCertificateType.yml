@@ -1,0 +1,271 @@
+ECSSolutions\UblToolset\Structure\V2_3\Maindoc\GuaranteeCertificate\GuaranteeCertificateType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        uBLVersionID:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLVersionID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUBLVersionID
+                setter: setUBLVersionID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\UBLVersionID
+        customizationID:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomizationID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCustomizationID
+                setter: setCustomizationID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CustomizationID
+        profileID:
+            expose: true
+            access_type: public_method
+            serialized_name: ProfileID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getProfileID
+                setter: setProfileID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ProfileID
+        profileExecutionID:
+            expose: true
+            access_type: public_method
+            serialized_name: ProfileExecutionID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getProfileExecutionID
+                setter: setProfileExecutionID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ProfileExecutionID
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        copyIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: CopyIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCopyIndicator
+                setter: setCopyIndicator
+            type: bool
+        uUID:
+            expose: true
+            access_type: public_method
+            serialized_name: UUID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUUID
+                setter: setUUID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\UUID
+        contractFolderID:
+            expose: true
+            access_type: public_method
+            serialized_name: ContractFolderID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getContractFolderID
+                setter: setContractFolderID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ContractFolderID
+        issueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: IssueDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssueDate
+                setter: setIssueDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        issueTime:
+            expose: true
+            access_type: public_method
+            serialized_name: IssueTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssueTime
+                setter: setIssueTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        guaranteeTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: GuaranteeTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGuaranteeTypeCode
+                setter: setGuaranteeTypeCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\GuaranteeTypeCode
+        purpose:
+            expose: true
+            access_type: public_method
+            serialized_name: Purpose
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPurpose
+                setter: setPurpose
+            xml_list:
+                inline: true
+                entry_name: Purpose
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Purpose>
+        liabilityAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: LiabilityAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLiabilityAmount
+                setter: setLiabilityAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\LiabilityAmount
+        constitutionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ConstitutionCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConstitutionCode
+                setter: setConstitutionCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ConstitutionCode
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Note>
+        applicablePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ApplicablePeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getApplicablePeriod
+                setter: setApplicablePeriod
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ApplicablePeriod
+        applicableRegulation:
+            expose: true
+            access_type: public_method
+            serialized_name: ApplicableRegulation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getApplicableRegulation
+                setter: setApplicableRegulation
+            xml_list:
+                inline: true
+                entry_name: ApplicableRegulation
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ApplicableRegulation>
+        guaranteeDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: GuaranteeDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getGuaranteeDocumentReference
+                setter: setGuaranteeDocumentReference
+            xml_list:
+                inline: true
+                entry_name: GuaranteeDocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\GuaranteeDocumentReference>
+        immobilizedSecurity:
+            expose: true
+            access_type: public_method
+            serialized_name: ImmobilizedSecurity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getImmobilizedSecurity
+                setter: setImmobilizedSecurity
+            xml_list:
+                inline: true
+                entry_name: ImmobilizedSecurity
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ImmobilizedSecurity>
+        signature:
+            expose: true
+            access_type: public_method
+            serialized_name: Signature
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSignature
+                setter: setSignature
+            xml_list:
+                inline: true
+                entry_name: Signature
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Signature>
+        guarantorParty:
+            expose: true
+            access_type: public_method
+            serialized_name: GuarantorParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getGuarantorParty
+                setter: setGuarantorParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\GuarantorParty
+        interestedParty:
+            expose: true
+            access_type: public_method
+            serialized_name: InterestedParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getInterestedParty
+                setter: setInterestedParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\InterestedParty
+        beneficiaryParty:
+            expose: true
+            access_type: public_method
+            serialized_name: BeneficiaryParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getBeneficiaryParty
+                setter: setBeneficiaryParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\BeneficiaryParty

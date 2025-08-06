@@ -1,0 +1,165 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ResponseValueType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Description>
+        response:
+            expose: true
+            access_type: public_method
+            serialized_name: Response
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResponse
+                setter: setResponse
+            xml_list:
+                inline: true
+                entry_name: Response
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Response>
+        responseAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResponseAmount
+                setter: setResponseAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ResponseAmount
+        responseBinaryObject:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseBinaryObject
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResponseBinaryObject
+                setter: setResponseBinaryObject
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ResponseBinaryObject
+        responseCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResponseCode
+                setter: setResponseCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ResponseCode
+        responseDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResponseDate
+                setter: setResponseDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        responseID:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResponseID
+                setter: setResponseID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ResponseID
+        responseIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResponseIndicator
+                setter: setResponseIndicator
+            type: bool
+        responseMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResponseMeasure
+                setter: setResponseMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ResponseMeasure
+        responseNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResponseNumeric
+                setter: setResponseNumeric
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ResponseNumeric
+        responseQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResponseQuantity
+                setter: setResponseQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ResponseQuantity
+        responseTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResponseTime
+                setter: setResponseTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        responseURI:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseURI
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResponseURI
+                setter: setResponseURI
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ResponseURI

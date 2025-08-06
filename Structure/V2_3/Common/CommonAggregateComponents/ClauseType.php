@@ -1,0 +1,260 @@
+<?php
+
+namespace ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents;
+
+/**
+ * Class representing ClauseType
+ *
+ * ABIE
+ *  Clause. Details
+ *  A class to define a clause (a distinct article or provision) in a contract, treaty, will, or other formal or legal written document requiring compliance.
+ *  Clause
+ * XSD Type: ClauseType
+ */
+class ClauseType
+{
+    /**
+     * A container for extensions foreign to the document.
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension[] $uBLExtensions
+     */
+    private $uBLExtensions = null;
+
+    /**
+     * BBIE
+     *  Clause. Identifier
+     *  An identifier for this clause.
+     *  0..1
+     *  Clause
+     *  Identifier
+     *  Identifier
+     *  Identifier. Type
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID $iD
+     */
+    private $iD = null;
+
+    /**
+     * BBIE
+     *  Clause. Content. Text
+     *  The text of this clause.
+     *  0..n
+     *  Clause
+     *  Content
+     *  Text
+     *  Text. Type
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Content[] $content
+     */
+    private $content = [
+        
+    ];
+
+    /**
+     * Adds as uBLExtension
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @return self
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension $uBLExtension
+     */
+    public function addToUBLExtensions(\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension $uBLExtension)
+    {
+        $this->uBLExtensions[] = $uBLExtension;
+        return $this;
+    }
+
+    /**
+     * isset uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetUBLExtensions($index)
+    {
+        return isset($this->uBLExtensions[$index]);
+    }
+
+    /**
+     * unset uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetUBLExtensions($index)
+    {
+        unset($this->uBLExtensions[$index]);
+    }
+
+    /**
+     * Gets as uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension[]
+     */
+    public function getUBLExtensions()
+    {
+        return $this->uBLExtensions;
+    }
+
+    /**
+     * Sets a new uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension[] $uBLExtensions
+     * @return self
+     */
+    public function setUBLExtensions(?array $uBLExtensions = null)
+    {
+        $this->uBLExtensions = $uBLExtensions;
+        return $this;
+    }
+
+    /**
+     * Gets as iD
+     *
+     * BBIE
+     *  Clause. Identifier
+     *  An identifier for this clause.
+     *  0..1
+     *  Clause
+     *  Identifier
+     *  Identifier
+     *  Identifier. Type
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+     */
+    public function getID()
+    {
+        return $this->iD;
+    }
+
+    /**
+     * Sets a new iD
+     *
+     * BBIE
+     *  Clause. Identifier
+     *  An identifier for this clause.
+     *  0..1
+     *  Clause
+     *  Identifier
+     *  Identifier
+     *  Identifier. Type
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID $iD
+     * @return self
+     */
+    public function setID(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID $iD = null)
+    {
+        $this->iD = $iD;
+        return $this;
+    }
+
+    /**
+     * Adds as content
+     *
+     * BBIE
+     *  Clause. Content. Text
+     *  The text of this clause.
+     *  0..n
+     *  Clause
+     *  Content
+     *  Text
+     *  Text. Type
+     *
+     * @return self
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Content $content
+     */
+    public function addToContent(\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Content $content)
+    {
+        $this->content[] = $content;
+        return $this;
+    }
+
+    /**
+     * isset content
+     *
+     * BBIE
+     *  Clause. Content. Text
+     *  The text of this clause.
+     *  0..n
+     *  Clause
+     *  Content
+     *  Text
+     *  Text. Type
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetContent($index)
+    {
+        return isset($this->content[$index]);
+    }
+
+    /**
+     * unset content
+     *
+     * BBIE
+     *  Clause. Content. Text
+     *  The text of this clause.
+     *  0..n
+     *  Clause
+     *  Content
+     *  Text
+     *  Text. Type
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetContent($index)
+    {
+        unset($this->content[$index]);
+    }
+
+    /**
+     * Gets as content
+     *
+     * BBIE
+     *  Clause. Content. Text
+     *  The text of this clause.
+     *  0..n
+     *  Clause
+     *  Content
+     *  Text
+     *  Text. Type
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Content[]
+     */
+    public function getContent()
+    {
+        return $this->content;
+    }
+
+    /**
+     * Sets a new content
+     *
+     * BBIE
+     *  Clause. Content. Text
+     *  The text of this clause.
+     *  0..n
+     *  Clause
+     *  Content
+     *  Text
+     *  Text. Type
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Content[] $content
+     * @return self
+     */
+    public function setContent(?array $content = null)
+    {
+        $this->content = $content;
+        return $this;
+    }
+}
+

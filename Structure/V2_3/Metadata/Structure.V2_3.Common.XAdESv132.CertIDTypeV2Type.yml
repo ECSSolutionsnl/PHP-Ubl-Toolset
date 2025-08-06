@@ -1,0 +1,31 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\XAdESv132\CertIDTypeV2Type:
+    properties:
+        uRI:
+            expose: true
+            access_type: public_method
+            serialized_name: URI
+            accessor:
+                getter: getURI
+                setter: setURI
+            xml_attribute: true
+            type: string
+        certDigest:
+            expose: true
+            access_type: public_method
+            serialized_name: CertDigest
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getCertDigest
+                setter: setCertDigest
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\XAdESv132\DigestAlgAndValueType
+        issuerSerialV2:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuerSerialV2
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getIssuerSerialV2
+                setter: setIssuerSerialV2
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded

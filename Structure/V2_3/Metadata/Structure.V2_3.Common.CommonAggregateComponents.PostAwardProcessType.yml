@@ -1,0 +1,61 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\PostAwardProcessType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        electronicCatalogueUsageIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ElectronicCatalogueUsageIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getElectronicCatalogueUsageIndicator
+                setter: setElectronicCatalogueUsageIndicator
+            type: bool
+        electronicInvoiceAcceptedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ElectronicInvoiceAcceptedIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getElectronicInvoiceAcceptedIndicator
+                setter: setElectronicInvoiceAcceptedIndicator
+            type: bool
+        electronicOrderUsageIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ElectronicOrderUsageIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getElectronicOrderUsageIndicator
+                setter: setElectronicOrderUsageIndicator
+            type: bool
+        electronicPaymentUsageIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ElectronicPaymentUsageIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getElectronicPaymentUsageIndicator
+                setter: setElectronicPaymentUsageIndicator
+            xml_list:
+                inline: true
+                entry_name: ElectronicPaymentUsageIndicator
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<bool>

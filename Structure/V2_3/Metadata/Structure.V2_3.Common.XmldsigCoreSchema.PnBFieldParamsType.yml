@@ -1,0 +1,32 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\XmldsigCoreSchema\PnBFieldParamsType:
+    properties:
+        k1:
+            expose: true
+            access_type: public_method
+            serialized_name: K1
+            xml_element:
+                namespace: 'http://www.w3.org/2009/xmldsig11#'
+            accessor:
+                getter: getK1
+                setter: setK1
+            type: int
+        k2:
+            expose: true
+            access_type: public_method
+            serialized_name: K2
+            xml_element:
+                namespace: 'http://www.w3.org/2009/xmldsig11#'
+            accessor:
+                getter: getK2
+                setter: setK2
+            type: int
+        k3:
+            expose: true
+            access_type: public_method
+            serialized_name: K3
+            xml_element:
+                namespace: 'http://www.w3.org/2009/xmldsig11#'
+            accessor:
+                getter: getK3
+                setter: setK3
+            type: int

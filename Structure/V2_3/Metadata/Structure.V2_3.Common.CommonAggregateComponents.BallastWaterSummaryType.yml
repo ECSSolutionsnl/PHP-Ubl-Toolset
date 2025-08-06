@@ -1,0 +1,197 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\BallastWaterSummaryType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        managementPlanOnBoardIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ManagementPlanOnBoardIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getManagementPlanOnBoardIndicator
+                setter: setManagementPlanOnBoardIndicator
+            type: bool
+        managementPlanImplementedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ManagementPlanImplementedIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getManagementPlanImplementedIndicator
+                setter: setManagementPlanImplementedIndicator
+            type: bool
+        iMOGuidelinesOnBoardIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: IMOGuidelinesOnBoardIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIMOGuidelinesOnBoardIndicator
+                setter: setIMOGuidelinesOnBoardIndicator
+            type: bool
+        totalBallastTanksOnBoardQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalBallastTanksOnBoardQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalBallastTanksOnBoardQuantity
+                setter: setTotalBallastTanksOnBoardQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TotalBallastTanksOnBoardQuantity
+        tanksInBallastQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TanksInBallastQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTanksInBallastQuantity
+                setter: setTanksInBallastQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TanksInBallastQuantity
+        tanksExchangedQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TanksExchangedQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTanksExchangedQuantity
+                setter: setTanksExchangedQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TanksExchangedQuantity
+        tanksNotExchangedQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TanksNotExchangedQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTanksNotExchangedQuantity
+                setter: setTanksNotExchangedQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TanksNotExchangedQuantity
+        totalBallastWaterOnBoardMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalBallastWaterOnBoardMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalBallastWaterOnBoardMeasure
+                setter: setTotalBallastWaterOnBoardMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TotalBallastWaterOnBoardMeasure
+        totalBallastWaterCapacityMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalBallastWaterCapacityMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalBallastWaterCapacityMeasure
+                setter: setTotalBallastWaterCapacityMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TotalBallastWaterCapacityMeasure
+        otherControlActions:
+            expose: true
+            access_type: public_method
+            serialized_name: OtherControlActions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOtherControlActions
+                setter: setOtherControlActions
+            xml_list:
+                inline: true
+                entry_name: OtherControlActions
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\OtherControlActions>
+        noControlActionsReason:
+            expose: true
+            access_type: public_method
+            serialized_name: NoControlActionsReason
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNoControlActionsReason
+                setter: setNoControlActionsReason
+            xml_list:
+                inline: true
+                entry_name: NoControlActionsReason
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\NoControlActionsReason>
+        uptakeBallastWaterTransaction:
+            expose: true
+            access_type: public_method
+            serialized_name: UptakeBallastWaterTransaction
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getUptakeBallastWaterTransaction
+                setter: setUptakeBallastWaterTransaction
+            xml_list:
+                inline: true
+                entry_name: UptakeBallastWaterTransaction
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\UptakeBallastWaterTransaction>
+        exchangeBallastWaterTransaction:
+            expose: true
+            access_type: public_method
+            serialized_name: ExchangeBallastWaterTransaction
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getExchangeBallastWaterTransaction
+                setter: setExchangeBallastWaterTransaction
+            xml_list:
+                inline: true
+                entry_name: ExchangeBallastWaterTransaction
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ExchangeBallastWaterTransaction>
+        dischargeBallastWaterTransaction:
+            expose: true
+            access_type: public_method
+            serialized_name: DischargeBallastWaterTransaction
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDischargeBallastWaterTransaction
+                setter: setDischargeBallastWaterTransaction
+            xml_list:
+                inline: true
+                entry_name: DischargeBallastWaterTransaction
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\DischargeBallastWaterTransaction>
+        responsibleOfficerPerson:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponsibleOfficerPerson
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getResponsibleOfficerPerson
+                setter: setResponsibleOfficerPerson
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ResponsibleOfficerPerson

@@ -1,0 +1,12 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\XmldsigCoreSchema\PrimeFieldParamsType:
+    properties:
+        p:
+            expose: true
+            access_type: public_method
+            serialized_name: P
+            xml_element:
+                namespace: 'http://www.w3.org/2009/xmldsig11#'
+            accessor:
+                getter: getP
+                setter: setP
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded

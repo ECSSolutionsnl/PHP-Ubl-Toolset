@@ -1,0 +1,67 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\VesselDynamicsType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        navigationStatusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: NavigationStatusCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNavigationStatusCode
+                setter: setNavigationStatusCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\NavigationStatusCode
+        atAnchorageIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: AtAnchorageIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAtAnchorageIndicator
+                setter: setAtAnchorageIndicator
+            type: bool
+        courseOverGroundDirection:
+            expose: true
+            access_type: public_method
+            serialized_name: CourseOverGroundDirection
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCourseOverGroundDirection
+                setter: setCourseOverGroundDirection
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CourseOverGroundDirection
+        speedOverGroundMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: SpeedOverGroundMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSpeedOverGroundMeasure
+                setter: setSpeedOverGroundMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\SpeedOverGroundMeasure
+        rateOfTurnMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: RateOfTurnMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRateOfTurnMeasure
+                setter: setRateOfTurnMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\RateOfTurnMeasure

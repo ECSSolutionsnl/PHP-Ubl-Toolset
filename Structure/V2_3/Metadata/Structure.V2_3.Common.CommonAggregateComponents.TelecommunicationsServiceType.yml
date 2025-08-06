@@ -1,0 +1,247 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TelecommunicationsServiceType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        callDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CallDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCallDate
+                setter: setCallDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        callTime:
+            expose: true
+            access_type: public_method
+            serialized_name: CallTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCallTime
+                setter: setCallTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        serviceNumberCalled:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceNumberCalled
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getServiceNumberCalled
+                setter: setServiceNumberCalled
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ServiceNumberCalled
+        telecommunicationsServiceCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: TelecommunicationsServiceCategory
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTelecommunicationsServiceCategory
+                setter: setTelecommunicationsServiceCategory
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TelecommunicationsServiceCategory
+        telecommunicationsServiceCategoryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TelecommunicationsServiceCategoryCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTelecommunicationsServiceCategoryCode
+                setter: setTelecommunicationsServiceCategoryCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TelecommunicationsServiceCategoryCode
+        movieTitle:
+            expose: true
+            access_type: public_method
+            serialized_name: MovieTitle
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMovieTitle
+                setter: setMovieTitle
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MovieTitle
+        roamingPartnerName:
+            expose: true
+            access_type: public_method
+            serialized_name: RoamingPartnerName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRoamingPartnerName
+                setter: setRoamingPartnerName
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\RoamingPartnerName
+        payPerView:
+            expose: true
+            access_type: public_method
+            serialized_name: PayPerView
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPayPerView
+                setter: setPayPerView
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PayPerView
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Quantity
+        telecommunicationsServiceCall:
+            expose: true
+            access_type: public_method
+            serialized_name: TelecommunicationsServiceCall
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTelecommunicationsServiceCall
+                setter: setTelecommunicationsServiceCall
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TelecommunicationsServiceCall
+        telecommunicationsServiceCallCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TelecommunicationsServiceCallCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTelecommunicationsServiceCallCode
+                setter: setTelecommunicationsServiceCallCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TelecommunicationsServiceCallCode
+        callBaseAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: CallBaseAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCallBaseAmount
+                setter: setCallBaseAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CallBaseAmount
+        callExtensionAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: CallExtensionAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCallExtensionAmount
+                setter: setCallExtensionAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CallExtensionAmount
+        price:
+            expose: true
+            access_type: public_method
+            serialized_name: Price
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPrice
+                setter: setPrice
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Price
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: Country
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Country
+        exchangeRate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExchangeRate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getExchangeRate
+                setter: setExchangeRate
+            xml_list:
+                inline: true
+                entry_name: ExchangeRate
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ExchangeRate>
+        allowanceCharge:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowanceCharge
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAllowanceCharge
+                setter: setAllowanceCharge
+            xml_list:
+                inline: true
+                entry_name: AllowanceCharge
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AllowanceCharge>
+        taxTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxTotal
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxTotal
+                setter: setTaxTotal
+            xml_list:
+                inline: true
+                entry_name: TaxTotal
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TaxTotal>
+        callDuty:
+            expose: true
+            access_type: public_method
+            serialized_name: CallDuty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCallDuty
+                setter: setCallDuty
+            xml_list:
+                inline: true
+                entry_name: CallDuty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\CallDuty>
+        timeDuty:
+            expose: true
+            access_type: public_method
+            serialized_name: TimeDuty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTimeDuty
+                setter: setTimeDuty
+            xml_list:
+                inline: true
+                entry_name: TimeDuty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TimeDuty>

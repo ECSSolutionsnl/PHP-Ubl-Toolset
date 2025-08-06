@@ -1,0 +1,260 @@
+<?php
+
+namespace ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents;
+
+/**
+ * Class representing LineResponseType
+ *
+ * ABIE
+ *  Line Response. Details
+ *  A class to describe responses to a line in a document.
+ *  Line Response
+ * XSD Type: LineResponseType
+ */
+class LineResponseType
+{
+    /**
+     * A container for extensions foreign to the document.
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension[] $uBLExtensions
+     */
+    private $uBLExtensions = null;
+
+    /**
+     * ASBIE
+     *  Line Response. Line Reference
+     *  A reference to the line being responded to.
+     *  1
+     *  Line Response
+     *  Line Reference
+     *  Line Reference
+     *  Line Reference
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\LineReference $lineReference
+     */
+    private $lineReference = null;
+
+    /**
+     * ASBIE
+     *  Line Response. Response
+     *  A response to the referenced line.
+     *  1..n
+     *  Line Response
+     *  Response
+     *  Response
+     *  Response
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Response[] $response
+     */
+    private $response = [
+        
+    ];
+
+    /**
+     * Adds as uBLExtension
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @return self
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension $uBLExtension
+     */
+    public function addToUBLExtensions(\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension $uBLExtension)
+    {
+        $this->uBLExtensions[] = $uBLExtension;
+        return $this;
+    }
+
+    /**
+     * isset uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetUBLExtensions($index)
+    {
+        return isset($this->uBLExtensions[$index]);
+    }
+
+    /**
+     * unset uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetUBLExtensions($index)
+    {
+        unset($this->uBLExtensions[$index]);
+    }
+
+    /**
+     * Gets as uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension[]
+     */
+    public function getUBLExtensions()
+    {
+        return $this->uBLExtensions;
+    }
+
+    /**
+     * Sets a new uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension[] $uBLExtensions
+     * @return self
+     */
+    public function setUBLExtensions(?array $uBLExtensions = null)
+    {
+        $this->uBLExtensions = $uBLExtensions;
+        return $this;
+    }
+
+    /**
+     * Gets as lineReference
+     *
+     * ASBIE
+     *  Line Response. Line Reference
+     *  A reference to the line being responded to.
+     *  1
+     *  Line Response
+     *  Line Reference
+     *  Line Reference
+     *  Line Reference
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\LineReference
+     */
+    public function getLineReference()
+    {
+        return $this->lineReference;
+    }
+
+    /**
+     * Sets a new lineReference
+     *
+     * ASBIE
+     *  Line Response. Line Reference
+     *  A reference to the line being responded to.
+     *  1
+     *  Line Response
+     *  Line Reference
+     *  Line Reference
+     *  Line Reference
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\LineReference $lineReference
+     * @return self
+     */
+    public function setLineReference(\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\LineReference $lineReference)
+    {
+        $this->lineReference = $lineReference;
+        return $this;
+    }
+
+    /**
+     * Adds as response
+     *
+     * ASBIE
+     *  Line Response. Response
+     *  A response to the referenced line.
+     *  1..n
+     *  Line Response
+     *  Response
+     *  Response
+     *  Response
+     *
+     * @return self
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Response $response
+     */
+    public function addToResponse(\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Response $response)
+    {
+        $this->response[] = $response;
+        return $this;
+    }
+
+    /**
+     * isset response
+     *
+     * ASBIE
+     *  Line Response. Response
+     *  A response to the referenced line.
+     *  1..n
+     *  Line Response
+     *  Response
+     *  Response
+     *  Response
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetResponse($index)
+    {
+        return isset($this->response[$index]);
+    }
+
+    /**
+     * unset response
+     *
+     * ASBIE
+     *  Line Response. Response
+     *  A response to the referenced line.
+     *  1..n
+     *  Line Response
+     *  Response
+     *  Response
+     *  Response
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetResponse($index)
+    {
+        unset($this->response[$index]);
+    }
+
+    /**
+     * Gets as response
+     *
+     * ASBIE
+     *  Line Response. Response
+     *  A response to the referenced line.
+     *  1..n
+     *  Line Response
+     *  Response
+     *  Response
+     *  Response
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Response[]
+     */
+    public function getResponse()
+    {
+        return $this->response;
+    }
+
+    /**
+     * Sets a new response
+     *
+     * ASBIE
+     *  Line Response. Response
+     *  A response to the referenced line.
+     *  1..n
+     *  Line Response
+     *  Response
+     *  Response
+     *  Response
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Response[] $response
+     * @return self
+     */
+    public function setResponse(array $response)
+    {
+        $this->response = $response;
+        return $this;
+    }
+}
+

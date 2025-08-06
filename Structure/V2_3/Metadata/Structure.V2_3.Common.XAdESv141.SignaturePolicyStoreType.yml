@@ -1,0 +1,41 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\XAdESv141\SignaturePolicyStoreType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: Id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        sPDocSpecification:
+            expose: true
+            access_type: public_method
+            serialized_name: SPDocSpecification
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.4.1#'
+            accessor:
+                getter: getSPDocSpecification
+                setter: setSPDocSpecification
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\XAdESv141\SPDocSpecification
+        signaturePolicyDocument:
+            expose: true
+            access_type: public_method
+            serialized_name: SignaturePolicyDocument
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.4.1#'
+            accessor:
+                getter: getSignaturePolicyDocument
+                setter: setSignaturePolicyDocument
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded
+        sigPolDocLocalURI:
+            expose: true
+            access_type: public_method
+            serialized_name: SigPolDocLocalURI
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.4.1#'
+            accessor:
+                getter: getSigPolDocLocalURI
+                setter: setSigPolDocLocalURI
+            type: string

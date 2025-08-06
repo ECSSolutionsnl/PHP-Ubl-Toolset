@@ -1,0 +1,140 @@
+ECSSolutions\UblToolset\Structure\V2_1\Common\CommonAggregateComponents\PaymentMeansType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonBasicComponents\ID
+        paymentMeansCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentMeansCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentMeansCode
+                setter: setPaymentMeansCode
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonBasicComponents\PaymentMeansCode
+        paymentDueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentDueDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentDueDate
+                setter: setPaymentDueDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        paymentChannelCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentChannelCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentChannelCode
+                setter: setPaymentChannelCode
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonBasicComponents\PaymentChannelCode
+        instructionID:
+            expose: true
+            access_type: public_method
+            serialized_name: InstructionID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInstructionID
+                setter: setInstructionID
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonBasicComponents\InstructionID
+        instructionNote:
+            expose: true
+            access_type: public_method
+            serialized_name: InstructionNote
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInstructionNote
+                setter: setInstructionNote
+            xml_list:
+                inline: true
+                entry_name: InstructionNote
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_1\Common\CommonBasicComponents\InstructionNote>
+        paymentID:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentID
+                setter: setPaymentID
+            xml_list:
+                inline: true
+                entry_name: PaymentID
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_1\Common\CommonBasicComponents\PaymentID>
+        cardAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: CardAccount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCardAccount
+                setter: setCardAccount
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonAggregateComponents\CardAccount
+        payerFinancialAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: PayerFinancialAccount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPayerFinancialAccount
+                setter: setPayerFinancialAccount
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonAggregateComponents\PayerFinancialAccount
+        payeeFinancialAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: PayeeFinancialAccount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPayeeFinancialAccount
+                setter: setPayeeFinancialAccount
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonAggregateComponents\PayeeFinancialAccount
+        creditAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: CreditAccount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCreditAccount
+                setter: setCreditAccount
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonAggregateComponents\CreditAccount
+        paymentMandate:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentMandate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPaymentMandate
+                setter: setPaymentMandate
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonAggregateComponents\PaymentMandate
+        tradeFinancing:
+            expose: true
+            access_type: public_method
+            serialized_name: TradeFinancing
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTradeFinancing
+                setter: setTradeFinancing
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonAggregateComponents\TradeFinancing

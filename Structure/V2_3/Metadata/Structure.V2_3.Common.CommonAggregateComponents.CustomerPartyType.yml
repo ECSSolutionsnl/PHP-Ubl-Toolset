@@ -1,0 +1,91 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\CustomerPartyType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        customerAssignedAccountID:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomerAssignedAccountID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCustomerAssignedAccountID
+                setter: setCustomerAssignedAccountID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CustomerAssignedAccountID
+        supplierAssignedAccountID:
+            expose: true
+            access_type: public_method
+            serialized_name: SupplierAssignedAccountID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSupplierAssignedAccountID
+                setter: setSupplierAssignedAccountID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\SupplierAssignedAccountID
+        additionalAccountID:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalAccountID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAdditionalAccountID
+                setter: setAdditionalAccountID
+            xml_list:
+                inline: true
+                entry_name: AdditionalAccountID
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\AdditionalAccountID>
+        party:
+            expose: true
+            access_type: public_method
+            serialized_name: Party
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getParty
+                setter: setParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Party
+        deliveryContact:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryContact
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryContact
+                setter: setDeliveryContact
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\DeliveryContact
+        accountingContact:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountingContact
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAccountingContact
+                setter: setAccountingContact
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AccountingContact
+        buyerContact:
+            expose: true
+            access_type: public_method
+            serialized_name: BuyerContact
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getBuyerContact
+                setter: setBuyerContact
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\BuyerContact

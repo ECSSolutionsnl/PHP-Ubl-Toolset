@@ -1,0 +1,65 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\LotDistributionType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        maximumLotsAwardedNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumLotsAwardedNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumLotsAwardedNumeric
+                setter: setMaximumLotsAwardedNumeric
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MaximumLotsAwardedNumeric
+        maximumLotsSubmittedNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumLotsSubmittedNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumLotsSubmittedNumeric
+                setter: setMaximumLotsSubmittedNumeric
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MaximumLotsSubmittedNumeric
+        groupingLots:
+            expose: true
+            access_type: public_method
+            serialized_name: GroupingLots
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGroupingLots
+                setter: setGroupingLots
+            xml_list:
+                inline: true
+                entry_name: GroupingLots
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\GroupingLots>
+        lotsGroup:
+            expose: true
+            access_type: public_method
+            serialized_name: LotsGroup
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLotsGroup
+                setter: setLotsGroup
+            xml_list:
+                inline: true
+                entry_name: LotsGroup
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\LotsGroup>

@@ -1,0 +1,47 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\WebSiteAccessType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        uRI:
+            expose: true
+            access_type: public_method
+            serialized_name: URI
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getURI
+                setter: setURI
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\URI
+        password:
+            expose: true
+            access_type: public_method
+            serialized_name: Password
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPassword
+                setter: setPassword
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Password
+        login:
+            expose: true
+            access_type: public_method
+            serialized_name: Login
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLogin
+                setter: setLogin
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Login

@@ -1,0 +1,143 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\PriceType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        priceAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PriceAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPriceAmount
+                setter: setPriceAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PriceAmount
+        baseQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: BaseQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBaseQuantity
+                setter: setBaseQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\BaseQuantity
+        priceChangeReason:
+            expose: true
+            access_type: public_method
+            serialized_name: PriceChangeReason
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPriceChangeReason
+                setter: setPriceChangeReason
+            xml_list:
+                inline: true
+                entry_name: PriceChangeReason
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PriceChangeReason>
+        priceTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PriceTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPriceTypeCode
+                setter: setPriceTypeCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PriceTypeCode
+        priceType:
+            expose: true
+            access_type: public_method
+            serialized_name: PriceType
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPriceType
+                setter: setPriceType
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PriceType
+        orderableUnitFactorRate:
+            expose: true
+            access_type: public_method
+            serialized_name: OrderableUnitFactorRate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOrderableUnitFactorRate
+                setter: setOrderableUnitFactorRate
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\OrderableUnitFactorRate
+        validityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidityPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getValidityPeriod
+                setter: setValidityPeriod
+            xml_list:
+                inline: true
+                entry_name: ValidityPeriod
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ValidityPeriod>
+        priceList:
+            expose: true
+            access_type: public_method
+            serialized_name: PriceList
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPriceList
+                setter: setPriceList
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\PriceList
+        allowanceCharge:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowanceCharge
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAllowanceCharge
+                setter: setAllowanceCharge
+            xml_list:
+                inline: true
+                entry_name: AllowanceCharge
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AllowanceCharge>
+        pricingExchangeRate:
+            expose: true
+            access_type: public_method
+            serialized_name: PricingExchangeRate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPricingExchangeRate
+                setter: setPricingExchangeRate
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\PricingExchangeRate
+        alternativeCurrencyPrice:
+            expose: true
+            access_type: public_method
+            serialized_name: AlternativeCurrencyPrice
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAlternativeCurrencyPrice
+                setter: setAlternativeCurrencyPrice
+            xml_list:
+                inline: true
+                entry_name: AlternativeCurrencyPrice
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\AlternativeCurrencyPrice>

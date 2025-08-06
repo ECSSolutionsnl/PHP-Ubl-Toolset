@@ -1,0 +1,81 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TransportationSegmentType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        sequenceNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: SequenceNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSequenceNumeric
+                setter: setSequenceNumeric
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\SequenceNumeric
+        transportExecutionPlanReferenceID:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportExecutionPlanReferenceID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransportExecutionPlanReferenceID
+                setter: setTransportExecutionPlanReferenceID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TransportExecutionPlanReferenceID
+        transportationService:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportationService
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTransportationService
+                setter: setTransportationService
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TransportationService
+        transportServiceProviderParty:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportServiceProviderParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTransportServiceProviderParty
+                setter: setTransportServiceProviderParty
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TransportServiceProviderParty
+        referencedConsignment:
+            expose: true
+            access_type: public_method
+            serialized_name: ReferencedConsignment
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getReferencedConsignment
+                setter: setReferencedConsignment
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ReferencedConsignment
+        shipmentStage:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipmentStage
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getShipmentStage
+                setter: setShipmentStage
+            xml_list:
+                inline: true
+                entry_name: ShipmentStage
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ShipmentStage>

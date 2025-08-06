@@ -1,0 +1,89 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\NotificationRequirementType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        notificationTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: NotificationTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNotificationTypeCode
+                setter: setNotificationTypeCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\NotificationTypeCode
+        postEventNotificationDurationMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: PostEventNotificationDurationMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPostEventNotificationDurationMeasure
+                setter: setPostEventNotificationDurationMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PostEventNotificationDurationMeasure
+        preEventNotificationDurationMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: PreEventNotificationDurationMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPreEventNotificationDurationMeasure
+                setter: setPreEventNotificationDurationMeasure
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PreEventNotificationDurationMeasure
+        notifyParty:
+            expose: true
+            access_type: public_method
+            serialized_name: NotifyParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getNotifyParty
+                setter: setNotifyParty
+            xml_list:
+                inline: true
+                entry_name: NotifyParty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\NotifyParty>
+        notificationPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: NotificationPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getNotificationPeriod
+                setter: setNotificationPeriod
+            xml_list:
+                inline: true
+                entry_name: NotificationPeriod
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\NotificationPeriod>
+        notificationLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: NotificationLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getNotificationLocation
+                setter: setNotificationLocation
+            xml_list:
+                inline: true
+                entry_name: NotificationLocation
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\NotificationLocation>

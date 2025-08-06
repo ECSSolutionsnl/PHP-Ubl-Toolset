@@ -1,0 +1,215 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\PaymentTermsType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        paymentMeansID:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentMeansID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentMeansID
+                setter: setPaymentMeansID
+            xml_list:
+                inline: true
+                entry_name: PaymentMeansID
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PaymentMeansID>
+        prepaidPaymentReferenceID:
+            expose: true
+            access_type: public_method
+            serialized_name: PrepaidPaymentReferenceID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPrepaidPaymentReferenceID
+                setter: setPrepaidPaymentReferenceID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PrepaidPaymentReferenceID
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Note>
+        referenceEventCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ReferenceEventCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReferenceEventCode
+                setter: setReferenceEventCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ReferenceEventCode
+        settlementDiscountPercent:
+            expose: true
+            access_type: public_method
+            serialized_name: SettlementDiscountPercent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSettlementDiscountPercent
+                setter: setSettlementDiscountPercent
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\SettlementDiscountPercent
+        penaltySurchargePercent:
+            expose: true
+            access_type: public_method
+            serialized_name: PenaltySurchargePercent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPenaltySurchargePercent
+                setter: setPenaltySurchargePercent
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PenaltySurchargePercent
+        paymentPercent:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentPercent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentPercent
+                setter: setPaymentPercent
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PaymentPercent
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Amount
+        settlementDiscountAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: SettlementDiscountAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSettlementDiscountAmount
+                setter: setSettlementDiscountAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\SettlementDiscountAmount
+        penaltyAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PenaltyAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPenaltyAmount
+                setter: setPenaltyAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PenaltyAmount
+        paymentTermsDetailsURI:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentTermsDetailsURI
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentTermsDetailsURI
+                setter: setPaymentTermsDetailsURI
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PaymentTermsDetailsURI
+        paymentDueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentDueDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentDueDate
+                setter: setPaymentDueDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        installmentDueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: InstallmentDueDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInstallmentDueDate
+                setter: setInstallmentDueDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        invoicingPartyReference:
+            expose: true
+            access_type: public_method
+            serialized_name: InvoicingPartyReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInvoicingPartyReference
+                setter: setInvoicingPartyReference
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\InvoicingPartyReference
+        settlementPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: SettlementPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSettlementPeriod
+                setter: setSettlementPeriod
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\SettlementPeriod
+        penaltyPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: PenaltyPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPenaltyPeriod
+                setter: setPenaltyPeriod
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\PenaltyPeriod
+        exchangeRate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExchangeRate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getExchangeRate
+                setter: setExchangeRate
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ExchangeRate
+        validityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidityPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getValidityPeriod
+                setter: setValidityPeriod
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ValidityPeriod

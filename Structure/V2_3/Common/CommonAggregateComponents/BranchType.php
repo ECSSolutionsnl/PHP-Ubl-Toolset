@@ -1,0 +1,305 @@
+<?php
+
+namespace ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents;
+
+/**
+ * Class representing BranchType
+ *
+ * ABIE
+ *  Branch. Details
+ *  A class to describe a branch or a division of an organization.
+ *  Branch
+ * XSD Type: BranchType
+ */
+class BranchType
+{
+    /**
+     * A container for extensions foreign to the document.
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension[] $uBLExtensions
+     */
+    private $uBLExtensions = null;
+
+    /**
+     * BBIE
+     *  Branch. Identifier
+     *  An identifier for this branch or division of an organization.
+     *  0..1
+     *  Branch
+     *  Identifier
+     *  Identifier
+     *  Identifier. Type
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID $iD
+     */
+    private $iD = null;
+
+    /**
+     * BBIE
+     *  Branch. Name
+     *  The name of this branch or division of an organization.
+     *  0..1
+     *  Branch
+     *  Name
+     *  Name
+     *  Name. Type
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Name $name
+     */
+    private $name = null;
+
+    /**
+     * ASBIE
+     *  Branch. Financial Institution
+     *  The financial institution that this branch belongs to (if applicable).
+     *  0..1
+     *  Branch
+     *  Financial Institution
+     *  Financial Institution
+     *  Financial Institution
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\FinancialInstitution $financialInstitution
+     */
+    private $financialInstitution = null;
+
+    /**
+     * ASBIE
+     *  Branch. Address
+     *  The address of this branch or division.
+     *  0..1
+     *  Branch
+     *  Address
+     *  Address
+     *  Address
+     *
+     * @var \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Address $address
+     */
+    private $address = null;
+
+    /**
+     * Adds as uBLExtension
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @return self
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension $uBLExtension
+     */
+    public function addToUBLExtensions(\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension $uBLExtension)
+    {
+        $this->uBLExtensions[] = $uBLExtension;
+        return $this;
+    }
+
+    /**
+     * isset uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetUBLExtensions($index)
+    {
+        return isset($this->uBLExtensions[$index]);
+    }
+
+    /**
+     * unset uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetUBLExtensions($index)
+    {
+        unset($this->uBLExtensions[$index]);
+    }
+
+    /**
+     * Gets as uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension[]
+     */
+    public function getUBLExtensions()
+    {
+        return $this->uBLExtensions;
+    }
+
+    /**
+     * Sets a new uBLExtensions
+     *
+     * A container for extensions foreign to the document.
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension[] $uBLExtensions
+     * @return self
+     */
+    public function setUBLExtensions(?array $uBLExtensions = null)
+    {
+        $this->uBLExtensions = $uBLExtensions;
+        return $this;
+    }
+
+    /**
+     * Gets as iD
+     *
+     * BBIE
+     *  Branch. Identifier
+     *  An identifier for this branch or division of an organization.
+     *  0..1
+     *  Branch
+     *  Identifier
+     *  Identifier
+     *  Identifier. Type
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+     */
+    public function getID()
+    {
+        return $this->iD;
+    }
+
+    /**
+     * Sets a new iD
+     *
+     * BBIE
+     *  Branch. Identifier
+     *  An identifier for this branch or division of an organization.
+     *  0..1
+     *  Branch
+     *  Identifier
+     *  Identifier
+     *  Identifier. Type
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID $iD
+     * @return self
+     */
+    public function setID(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID $iD = null)
+    {
+        $this->iD = $iD;
+        return $this;
+    }
+
+    /**
+     * Gets as name
+     *
+     * BBIE
+     *  Branch. Name
+     *  The name of this branch or division of an organization.
+     *  0..1
+     *  Branch
+     *  Name
+     *  Name
+     *  Name. Type
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Name
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * Sets a new name
+     *
+     * BBIE
+     *  Branch. Name
+     *  The name of this branch or division of an organization.
+     *  0..1
+     *  Branch
+     *  Name
+     *  Name
+     *  Name. Type
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Name $name
+     * @return self
+     */
+    public function setName(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Name $name = null)
+    {
+        $this->name = $name;
+        return $this;
+    }
+
+    /**
+     * Gets as financialInstitution
+     *
+     * ASBIE
+     *  Branch. Financial Institution
+     *  The financial institution that this branch belongs to (if applicable).
+     *  0..1
+     *  Branch
+     *  Financial Institution
+     *  Financial Institution
+     *  Financial Institution
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\FinancialInstitution
+     */
+    public function getFinancialInstitution()
+    {
+        return $this->financialInstitution;
+    }
+
+    /**
+     * Sets a new financialInstitution
+     *
+     * ASBIE
+     *  Branch. Financial Institution
+     *  The financial institution that this branch belongs to (if applicable).
+     *  0..1
+     *  Branch
+     *  Financial Institution
+     *  Financial Institution
+     *  Financial Institution
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\FinancialInstitution $financialInstitution
+     * @return self
+     */
+    public function setFinancialInstitution(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\FinancialInstitution $financialInstitution = null)
+    {
+        $this->financialInstitution = $financialInstitution;
+        return $this;
+    }
+
+    /**
+     * Gets as address
+     *
+     * ASBIE
+     *  Branch. Address
+     *  The address of this branch or division.
+     *  0..1
+     *  Branch
+     *  Address
+     *  Address
+     *  Address
+     *
+     * @return \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Address
+     */
+    public function getAddress()
+    {
+        return $this->address;
+    }
+
+    /**
+     * Sets a new address
+     *
+     * ASBIE
+     *  Branch. Address
+     *  The address of this branch or division.
+     *  0..1
+     *  Branch
+     *  Address
+     *  Address
+     *  Address
+     *
+     * @param \ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Address $address
+     * @return self
+     */
+    public function setAddress(?\ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\Address $address = null)
+    {
+        $this->address = $address;
+        return $this;
+    }
+}
+

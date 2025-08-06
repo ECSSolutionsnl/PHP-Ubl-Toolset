@@ -1,0 +1,37 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\WHOAffectedAreaVisitType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        visitDate:
+            expose: true
+            access_type: public_method
+            serialized_name: VisitDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getVisitDate
+                setter: setVisitDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        wHOAffectedAreaPortLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: WHOAffectedAreaPortLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getWHOAffectedAreaPortLocation
+                setter: setWHOAffectedAreaPortLocation
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\WHOAffectedAreaPortLocation

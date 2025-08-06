@@ -1,0 +1,91 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\SubcontractTermsType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        rate:
+            expose: true
+            access_type: public_method
+            serialized_name: Rate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRate
+                setter: setRate
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Rate
+        unknownPriceIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: UnknownPriceIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUnknownPriceIndicator
+                setter: setUnknownPriceIndicator
+            type: bool
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Description>
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Amount
+        subcontractingConditionsCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SubcontractingConditionsCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSubcontractingConditionsCode
+                setter: setSubcontractingConditionsCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\SubcontractingConditionsCode
+        maximumPercent:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPercent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumPercent
+                setter: setMaximumPercent
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MaximumPercent
+        minimumPercent:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumPercent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMinimumPercent
+                setter: setMinimumPercent
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MinimumPercent

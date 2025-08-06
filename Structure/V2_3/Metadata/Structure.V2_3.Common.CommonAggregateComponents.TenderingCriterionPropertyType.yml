@@ -1,0 +1,283 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TenderingCriterionPropertyType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Name
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\Description>
+        typeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTypeCode
+                setter: setTypeCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TypeCode
+        valueDataTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ValueDataTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValueDataTypeCode
+                setter: setValueDataTypeCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ValueDataTypeCode
+        valueUnitCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ValueUnitCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValueUnitCode
+                setter: setValueUnitCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ValueUnitCode
+        valueCurrencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ValueCurrencyCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValueCurrencyCode
+                setter: setValueCurrencyCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ValueCurrencyCode
+        expectedAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpectedAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExpectedAmount
+                setter: setExpectedAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ExpectedAmount
+        expectedID:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpectedID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExpectedID
+                setter: setExpectedID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ExpectedID
+        expectedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpectedIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExpectedIndicator
+                setter: setExpectedIndicator
+            type: bool
+        expectedCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpectedCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExpectedCode
+                setter: setExpectedCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ExpectedCode
+        expectedValueNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpectedValueNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExpectedValueNumeric
+                setter: setExpectedValueNumeric
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ExpectedValueNumeric
+        expectedDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpectedDescription
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExpectedDescription
+                setter: setExpectedDescription
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ExpectedDescription
+        expectedURI:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpectedURI
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExpectedURI
+                setter: setExpectedURI
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ExpectedURI
+        maximumAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumAmount
+                setter: setMaximumAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MaximumAmount
+        minimumAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMinimumAmount
+                setter: setMinimumAmount
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MinimumAmount
+        maximumValueNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumValueNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumValueNumeric
+                setter: setMaximumValueNumeric
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MaximumValueNumeric
+        minimumValueNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumValueNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMinimumValueNumeric
+                setter: setMinimumValueNumeric
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MinimumValueNumeric
+        maximumQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumQuantity
+                setter: setMaximumQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MaximumQuantity
+        minimumQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMinimumQuantity
+                setter: setMinimumQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MinimumQuantity
+        translationTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TranslationTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTranslationTypeCode
+                setter: setTranslationTypeCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\TranslationTypeCode
+        certificationLevelDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: CertificationLevelDescription
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCertificationLevelDescription
+                setter: setCertificationLevelDescription
+            xml_list:
+                inline: true
+                entry_name: CertificationLevelDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CertificationLevelDescription>
+        copyQualityTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CopyQualityTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCopyQualityTypeCode
+                setter: setCopyQualityTypeCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\CopyQualityTypeCode
+        applicablePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ApplicablePeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getApplicablePeriod
+                setter: setApplicablePeriod
+            xml_list:
+                inline: true
+                entry_name: ApplicablePeriod
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\ApplicablePeriod>
+        templateEvidence:
+            expose: true
+            access_type: public_method
+            serialized_name: TemplateEvidence
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTemplateEvidence
+                setter: setTemplateEvidence
+            xml_list:
+                inline: true
+                entry_name: TemplateEvidence
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\TemplateEvidence>

@@ -1,0 +1,42 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\XmldsigCoreSchema\FieldIDType:
+    properties:
+        prime:
+            expose: true
+            access_type: public_method
+            serialized_name: Prime
+            xml_element:
+                namespace: 'http://www.w3.org/2009/xmldsig11#'
+            accessor:
+                getter: getPrime
+                setter: setPrime
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\XmldsigCoreSchema\Prime
+        tnB:
+            expose: true
+            access_type: public_method
+            serialized_name: TnB
+            xml_element:
+                namespace: 'http://www.w3.org/2009/xmldsig11#'
+            accessor:
+                getter: getTnB
+                setter: setTnB
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\XmldsigCoreSchema\TnB
+        pnB:
+            expose: true
+            access_type: public_method
+            serialized_name: PnB
+            xml_element:
+                namespace: 'http://www.w3.org/2009/xmldsig11#'
+            accessor:
+                getter: getPnB
+                setter: setPnB
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\XmldsigCoreSchema\PnB
+        gnB:
+            expose: true
+            access_type: public_method
+            serialized_name: GnB
+            xml_element:
+                namespace: 'http://www.w3.org/2009/xmldsig11#'
+            accessor:
+                getter: getGnB
+                setter: setGnB
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\XmldsigCoreSchema\GnB

@@ -1,0 +1,42 @@
+ECSSolutions\UblToolset\Structure\V2_1\Common\CommonAggregateComponents\CommodityClassificationType:
+    properties:
+        natureCode:
+            expose: true
+            access_type: public_method
+            serialized_name: NatureCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNatureCode
+                setter: setNatureCode
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonBasicComponents\NatureCode
+        cargoTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CargoTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCargoTypeCode
+                setter: setCargoTypeCode
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonBasicComponents\CargoTypeCode
+        commodityCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CommodityCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCommodityCode
+                setter: setCommodityCode
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonBasicComponents\CommodityCode
+        itemClassificationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemClassificationCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getItemClassificationCode
+                setter: setItemClassificationCode
+            type: ECSSolutions\UblToolset\Structure\V2_1\Common\CommonBasicComponents\ItemClassificationCode

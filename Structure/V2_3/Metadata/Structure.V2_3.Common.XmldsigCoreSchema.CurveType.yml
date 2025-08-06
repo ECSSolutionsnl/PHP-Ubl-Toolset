@@ -1,0 +1,22 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\XmldsigCoreSchema\CurveType:
+    properties:
+        a:
+            expose: true
+            access_type: public_method
+            serialized_name: A
+            xml_element:
+                namespace: 'http://www.w3.org/2009/xmldsig11#'
+            accessor:
+                getter: getA
+                setter: setA
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded
+        b:
+            expose: true
+            access_type: public_method
+            serialized_name: B
+            xml_element:
+                namespace: 'http://www.w3.org/2009/xmldsig11#'
+            accessor:
+                getter: getB
+                setter: setB
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded

@@ -1,0 +1,151 @@
+ECSSolutions\UblToolset\Structure\V2_3\Common\CommonAggregateComponents\MeterReadingType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\ID
+        meterReadingType:
+            expose: true
+            access_type: public_method
+            serialized_name: MeterReadingType
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMeterReadingType
+                setter: setMeterReadingType
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MeterReadingType
+        meterReadingTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: MeterReadingTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMeterReadingTypeCode
+                setter: setMeterReadingTypeCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MeterReadingTypeCode
+        previousMeterReadingDate:
+            expose: true
+            access_type: public_method
+            serialized_name: PreviousMeterReadingDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPreviousMeterReadingDate
+                setter: setPreviousMeterReadingDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        previousMeterQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: PreviousMeterQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPreviousMeterQuantity
+                setter: setPreviousMeterQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PreviousMeterQuantity
+        latestMeterReadingDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestMeterReadingDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatestMeterReadingDate
+                setter: setLatestMeterReadingDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        latestMeterQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestMeterQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatestMeterQuantity
+                setter: setLatestMeterQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\LatestMeterQuantity
+        previousMeterReadingMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: PreviousMeterReadingMethod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPreviousMeterReadingMethod
+                setter: setPreviousMeterReadingMethod
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PreviousMeterReadingMethod
+        previousMeterReadingMethodCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PreviousMeterReadingMethodCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPreviousMeterReadingMethodCode
+                setter: setPreviousMeterReadingMethodCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\PreviousMeterReadingMethodCode
+        latestMeterReadingMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestMeterReadingMethod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatestMeterReadingMethod
+                setter: setLatestMeterReadingMethod
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\LatestMeterReadingMethod
+        latestMeterReadingMethodCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestMeterReadingMethodCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatestMeterReadingMethodCode
+                setter: setLatestMeterReadingMethodCode
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\LatestMeterReadingMethodCode
+        meterReadingComments:
+            expose: true
+            access_type: public_method
+            serialized_name: MeterReadingComments
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMeterReadingComments
+                setter: setMeterReadingComments
+            xml_list:
+                inline: true
+                entry_name: MeterReadingComments
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\MeterReadingComments>
+        deliveredQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveredQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDeliveredQuantity
+                setter: setDeliveredQuantity
+            type: ECSSolutions\UblToolset\Structure\V2_3\Common\CommonBasicComponents\DeliveredQuantity
